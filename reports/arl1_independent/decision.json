@@ -1,0 +1,19 @@
+{
+  "status": "same_judge_gain_did_not_transfer_reliably",
+  "recommendation": "defer_PPO_for_current_fixed_noise_seed_Regenerate_only_setup",
+  "best_of_5_independent_delta": -0.00011671335200746966,
+  "best_of_5_ci95": [
+    -0.00035722897496562794,
+    0.0
+  ],
+  "threshold_independent_delta": -0.00011671335200746966,
+  "threshold_ci95": [
+    -0.00035722897496562794,
+    0.0
+  ],
+  "next": [
+    "human adjudication of disagreement samples",
+    "test a generator or action with meaningful controllable variation"
+  ],
+  "scope": "Current frozen DriftTTS, single LJSpeech speaker, seed-only regeneration; not a general rejection of self-refinement."
+}

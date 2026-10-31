@@ -1,0 +1,126 @@
+{
+  "status": "independent_architecture_check_of_frozen_decisions",
+  "texts": 499,
+  "verified_candidate_scores": 2600,
+  "selection_judge": "faster-whisper base.en",
+  "independent_judge": "nvidia/parakeet-tdt-0.6b-v3",
+  "policies": {
+    "first": {
+      "selection_ASR_WER": 0.029878618113912233,
+      "independent_ASR_WER": 0.03011204481792717,
+      "independent_delta_vs_first": 0.0,
+      "paired_text_ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_generations": 1.0,
+      "texts_improved": 0,
+      "texts_worsened": 0
+    },
+    "best_asr_2": {
+      "selection_ASR_WER": 0.02789449112978525,
+      "independent_ASR_WER": 0.03011204481792717,
+      "independent_delta_vs_first": 0.0,
+      "paired_text_ci95": [
+        0.0,
+        0.0
+      ],
+      "mean_generations": 2.0,
+      "texts_improved": 0,
+      "texts_worsened": 0
+    },
+    "best_asr_4": {
+      "selection_ASR_WER": 0.025560224089635854,
+      "independent_ASR_WER": 0.029995331465919702,
+      "independent_delta_vs_first": -0.00011671335200746966,
+      "paired_text_ci95": [
+        -0.00035722897496562794,
+        0.0
+      ],
+      "mean_generations": 4.0,
+      "texts_improved": 1,
+      "texts_worsened": 0
+    },
+    "best_asr_5": {
+      "selection_ASR_WER": 0.025210084033613446,
+      "independent_ASR_WER": 0.029995331465919702,
+      "independent_delta_vs_first": -0.00011671335200746966,
+      "paired_text_ci95": [
+        -0.00035722897496562794,
+        0.0
+      ],
+      "mean_generations": 5.0,
+      "texts_improved": 1,
+      "texts_worsened": 0
+    },
+    "threshold_asr_max5": {
+      "selection_ASR_WER": 0.02696078431372549,
+      "independent_ASR_WER": 0.029995331465919702,
+      "independent_delta_vs_first": -0.00011671335200746966,
+      "paired_text_ci95": [
+        -0.00035722897496562794,
+        0.0
+      ],
+      "mean_generations": 1.4428857715430863,
+      "texts_improved": 1,
+      "texts_worsened": 0
+    },
+    "best_mos_2": {
+      "selection_ASR_WER": 0.03011204481792717,
+      "independent_ASR_WER": 0.02976190476190476,
+      "independent_delta_vs_first": -0.00035014005602240897,
+      "paired_text_ci95": [
+        -0.0009164905298162069,
+        0.00011760555098200635
+      ],
+      "mean_generations": 2.0,
+      "texts_improved": 4,
+      "texts_worsened": 1
+    },
+    "best_mos_4": {
+      "selection_ASR_WER": 0.029178338001867414,
+      "independent_ASR_WER": 0.02976190476190476,
+      "independent_delta_vs_first": -0.00035014005602240897,
+      "paired_text_ci95": [
+        -0.000953294527622084,
+        0.00023433060564824622
+      ],
+      "mean_generations": 4.0,
+      "texts_improved": 5,
+      "texts_worsened": 2
+    },
+    "best_mos_5": {
+      "selection_ASR_WER": 0.028127917833800187,
+      "independent_ASR_WER": 0.029878618113912233,
+      "independent_delta_vs_first": -0.00023342670401493932,
+      "paired_text_ci95": [
+        -0.0009190120620333142,
+        0.00035676379671724205
+      ],
+      "mean_generations": 5.0,
+      "texts_improved": 5,
+      "texts_worsened": 3
+    },
+    "threshold_mos_max5": {
+      "selection_ASR_WER": 0.028828197945845006,
+      "independent_ASR_WER": 0.03011204481792717,
+      "independent_delta_vs_first": 0.0,
+      "paired_text_ci95": [
+        -0.0004658231392159417,
+        0.0004684457886371613
+      ],
+      "mean_generations": 2.585170340681363,
+      "texts_improved": 2,
+      "texts_worsened": 2
+    }
+  },
+  "decisions_unchanged_sha256": "24958bcd62f267e85f010f596279dc072d4e6adbd504f149d12ca1b89afd6564",
+  "limitations": [
+    "Parakeet is a second automatic judge, not human confirmation of TTS defects.",
+    "ASR pretraining corpora may overlap LJSpeech; architecture independence does not guarantee training-data independence.",
+    "Policies and stopping thresholds are fixed from the previous experiment; no new ASR-driven tuning.",
+    "Single speaker and 499 texts; paired text bootstrap does not establish unseen-speaker generalization.",
+    "No naturalness/emotion assessment or learned controller/RL gains.",
+    "A native-batch FP32 run is used consistently; earlier partial single-sample outputs are excluded."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "real_vad_and_external_audio_pilot_complete_human_actions_pending",
+  "real_vad": {
+    "turns": 400,
+    "frames": 157345,
+    "risk_gate_passed": false
+  },
+  "external": {
+    "pairs": 8,
+    "channels": 16,
+    "frames": 74744,
+    "human_answers": 0,
+    "blind_clips": 64
+  },
+  "no_rl_trained": true,
+  "no_external_action_accuracy_claim": true,
+  "verification": {
+    "passed": true,
+    "download_files_checked": 48,
+    "blind_audio_files_checked": 64,
+    "each_duration_s": 5,
+    "each_channels": 2,
+    "each_native_track_clips": 4,
+    "official_source_files_hashed": 4,
+    "audio_native_files": 16,
+    "causal_prefix_checks": 1024,
+    "no_generated_human_answers": true,
+    "paths_under_requested_storage": true,
+    "listening_manifest_sha256": "c1913245fb4e16722bd862edfc0b277b8984cd4ba3ea75b26d2f1d37f1f0b2ba",
+    "download_manifest_sha256": "5e718210980648078072076412a0f8b86912dc1e2b0f85cb6c17ab7f4a7ab299",
+    "test_suite": {
+      "passed": 46,
+      "command": "/home2/sunkangle/github/drifting-tts-ljspeech/.venv/bin/python -m pytest -q tests"
+    }
+  },
+  "report_sha256": "905284a32e7f2a8278d31c9d99464c9da990d6ac454c2062e7537195d23f9feb",
+  "source_sha256": {
+    "causal_vad.py": "60d6052b243c7f301722fab66381c4cd2036bda6051a34b236794d19b1e21add",
+    "vad_validation.py": "135094767bf6485742e81c736bac0bee7908e4f96d2f68e7b446d6d7a141d429",
+    "seamless_pilot.py": "547bc18e703981d54b6657e16f1cbad12c038b5a74bf8b073f1844175cadf1fa",
+    "report_real_vad.py": "6f82618298059de3e5d4fc6bb5ada49fb386a9994612ba7898a2fe5218be23af"
+  }
+}
