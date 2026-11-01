@@ -9,7 +9,14 @@ existing endpoint labels, real VAD and ASR/runtime measurements. Unlabelled exte
 desired-action accuracy remains unassessed. No completed RL or verified
 emotion-aware interaction benefit is claimed.
 
-Latest: 45 availability-matched lightweight SFT heads trained and verified.
+Latest: actual paced audio with cached stateful ASR executed on 24 annotated
+user-turn crops from six public synthetic Cekura calls. Frozen policy premature
+responses: 16/24; VAD1.1s: 15/24. No matched-risk/coverage benefit is claimed.
+This is a local recorded-audio pilot, with no microphone, generated reply or
+responsive human. Full experiment suite: 58 passed.
+See [real-clock runtime](reports/arl2_wallclock_runtime/README.md).
+
+Earlier: 45 availability-matched lightweight SFT heads trained and verified.
 At the same service clock and recalibration protocol, Text+WavLM cutoff increased
 from 21.81% to 22.63%; conditional delay decreased from 532.9ms to 510.3ms.
 No risk/latency improvement is demonstrated. The three eligible seeds reuse the

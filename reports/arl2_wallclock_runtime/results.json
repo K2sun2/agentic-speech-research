@@ -1,0 +1,530 @@
+{
+  "status": "local_paced_audio_stateful_asr_pilot_complete",
+  "date": "2026-11-01",
+  "calls": 6,
+  "scripts": 5,
+  "turns": 24,
+  "curated_recording_s": 165.98024999999998,
+  "delivered_audio_s": 82.11200000000001,
+  "wall_runtime_s": 82.14983985666186,
+  "summary": {
+    "learned": {
+      "turns": 24,
+      "counts": {
+        "premature": 16,
+        "valid": 8,
+        "no_response": 0
+      },
+      "cutoff_rate": 0.6666666666666666,
+      "no_response_rate": 0.0,
+      "valid_response_rate": 0.3333333333333333,
+      "conditional_delay_s": 0.6200550081143152,
+      "failure_penalized_delay_s": 1.2066850027047717
+    },
+    "vad": {
+      "turns": 24,
+      "counts": {
+        "premature": 15,
+        "valid": 9,
+        "no_response": 0
+      },
+      "cutoff_rate": 0.625,
+      "no_response_rate": 0.0,
+      "valid_response_rate": 0.375,
+      "conditional_delay_s": 1.0899621916628544,
+      "failure_penalized_delay_s": 1.3462358218735704
+    }
+  },
+  "per_turn": [
+    {
+      "uid": "8013_u00",
+      "call_id": "8013",
+      "spec_id": "NB-01",
+      "end_of_turn_s": 5.51,
+      "learned": {
+        "outcome": "premature",
+        "at": 2.977281584404409,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 6.6566028436645865,
+        "delay_s": 1.1466028436645868,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8013_u01",
+      "call_id": "8013",
+      "spec_id": "NB-01",
+      "end_of_turn_s": 4.900000000000002,
+      "learned": {
+        "outcome": "premature",
+        "at": 2.1744446782395244,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.7206548787653446,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8013_u02",
+      "call_id": "8013",
+      "spec_id": "NB-01",
+      "end_of_turn_s": 6.689999999999998,
+      "learned": {
+        "outcome": "premature",
+        "at": 2.996318540535867,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 3.3605425842106342,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8013_u03",
+      "call_id": "8013",
+      "spec_id": "NB-01",
+      "end_of_turn_s": 8.170000000000002,
+      "learned": {
+        "outcome": "premature",
+        "at": 2.7373613165691495,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 3.1045204866677523,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8013_u04",
+      "call_id": "8013",
+      "spec_id": "NB-01",
+      "end_of_turn_s": 2.410062499999995,
+      "learned": {
+        "outcome": "valid",
+        "at": 3.194738157093525,
+        "delay_s": 0.7846756570935298,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 3.5531362295150757,
+        "delay_s": 1.1430737295150806,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8041_u00",
+      "call_id": "8041",
+      "spec_id": "NB-04",
+      "end_of_turn_s": 3.25,
+      "learned": {
+        "outcome": "valid",
+        "at": 4.1612078584730625,
+        "delay_s": 0.9112078584730625,
+        "reason": "vad_timeout"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 4.161163118667901,
+        "delay_s": 0.9111631186679006,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8041_u01",
+      "call_id": "8041",
+      "spec_id": "NB-04",
+      "end_of_turn_s": 5.839999999999998,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.8893779888749123,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.497178742662072,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8041_u02",
+      "call_id": "8041",
+      "spec_id": "NB-04",
+      "end_of_turn_s": 4.93,
+      "learned": {
+        "outcome": "premature",
+        "at": 3.3612013701349497,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 3.969173430465162,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8041_u03",
+      "call_id": "8041",
+      "spec_id": "NB-04",
+      "end_of_turn_s": 5.860000000000003,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.7933580977842212,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.401169809512794,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8041_u04",
+      "call_id": "8041",
+      "spec_id": "NB-04",
+      "end_of_turn_s": 1.7400625000000005,
+      "learned": {
+        "outcome": "valid",
+        "at": 2.2092422218993306,
+        "delay_s": 0.4691797218993301,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 2.817163054831326,
+        "delay_s": 1.0771005548313255,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8092_u00",
+      "call_id": "8092",
+      "spec_id": "NB-09",
+      "end_of_turn_s": 3.5600625000000004,
+      "learned": {
+        "outcome": "valid",
+        "at": 4.065369951538742,
+        "delay_s": 0.5053074515387412,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 4.673149309121072,
+        "delay_s": 1.113086809121072,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8092_u01",
+      "call_id": "8092",
+      "spec_id": "NB-09",
+      "end_of_turn_s": 7.01,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.9713770784437656,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.3371676113456488,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8092_u02",
+      "call_id": "8092",
+      "spec_id": "NB-09",
+      "end_of_turn_s": 7.580000000000002,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.537194512784481,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.145210238173604,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8092_u03",
+      "call_id": "8092",
+      "spec_id": "NB-09",
+      "end_of_turn_s": 1.7100000000000009,
+      "learned": {
+        "outcome": "valid",
+        "at": 2.20868228841573,
+        "delay_s": 0.49868228841572915,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 2.8171782149001956,
+        "delay_s": 1.1071782149001947,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8121_u00",
+      "call_id": "8121",
+      "spec_id": "NB-12",
+      "end_of_turn_s": 8.25,
+      "learned": {
+        "outcome": "premature",
+        "at": 5.674843963235617,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 6.0491434363648295,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8121_u01",
+      "call_id": "8121",
+      "spec_id": "NB-12",
+      "end_of_turn_s": 8.099999999999998,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.7322190217673779,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 1.8571456270292401,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8121_u02",
+      "call_id": "8121",
+      "spec_id": "NB-12",
+      "end_of_turn_s": 6.190000000000001,
+      "learned": {
+        "outcome": "premature",
+        "at": 2.2344517074525356,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.593140442855656,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "8121_u03",
+      "call_id": "8121",
+      "spec_id": "NB-12",
+      "end_of_turn_s": 3.5500000000000043,
+      "learned": {
+        "outcome": "valid",
+        "at": 4.089315751567483,
+        "delay_s": 0.5393157515674787,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 4.64120882935822,
+        "delay_s": 1.0912088293582158,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9041_u00",
+      "call_id": "9041",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 8.040000000000001,
+      "learned": {
+        "outcome": "premature",
+        "at": 4.0652133179828525,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 4.673166866414249,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9041_u01",
+      "call_id": "9041",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 6.93,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.7595730926841497,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 1.8891610614955425,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9041_u02",
+      "call_id": "9041",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 2.1700625000000002,
+      "learned": {
+        "outcome": "valid",
+        "at": 2.9369315318763256,
+        "delay_s": 0.7668690318763254,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 3.297156202606857,
+        "delay_s": 1.1270937026068566,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9042_u00",
+      "call_id": "9042",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 7.68,
+      "learned": {
+        "outcome": "premature",
+        "at": 3.681219386868179,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 4.289180382154882,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9042_u01",
+      "call_id": "9042",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 7.449999999999999,
+      "learned": {
+        "outcome": "premature",
+        "at": 1.9420969421043992,
+        "delay_s": null,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "premature",
+        "at": 2.0811494793742895,
+        "delay_s": null,
+        "reason": "vad_timeout"
+      }
+    },
+    {
+      "uid": "9042_u02",
+      "call_id": "9042",
+      "spec_id": "TB-04",
+      "end_of_turn_s": 2.460000000000001,
+      "learned": {
+        "outcome": "valid",
+        "at": 2.9452023040503263,
+        "delay_s": 0.4852023040503255,
+        "reason": "frozen_head"
+      },
+      "vad": {
+        "outcome": "valid",
+        "at": 3.553151922300458,
+        "delay_s": 1.093151922300457,
+        "reason": "vad_timeout"
+      }
+    }
+  ],
+  "runtime": {
+    "vad_frames": 2566,
+    "head_calls": 123,
+    "asr_accepted_frames": 2126,
+    "stateful_decode_steps": 191,
+    "features_requests": 83,
+    "worker_elapsed_s": {
+      "asr": 9.128342067822814,
+      "features": 3.519877818413079
+    },
+    "inflight_elapsed_after_learned_response_s": 0.12135887052863836,
+    "input_delivery_lateness_s": {
+      "n": 2566,
+      "median": 0.00012008859589696108,
+      "p95": 0.00013559523597364564,
+      "maximum": 0.0007544689923524306
+    },
+    "vad_availability_lag_s": {
+      "n": 2566,
+      "median": 0.0011545979864895084,
+      "p95": 0.0013721484113485283,
+      "maximum": 0.004568082459270872
+    },
+    "asr_decode_availability_vs_accepted_prefix_s": {
+      "n": 191,
+      "median": 0.043605839572846694,
+      "p95": 0.04656798016279928,
+      "maximum": 0.09157042622566225
+    },
+    "acoustic_availability_lag_s": {
+      "n": 83,
+      "median": 0.04288039389252685,
+      "p95": 0.05978388949111095,
+      "maximum": 0.06897769443690782
+    }
+  },
+  "policy": {
+    "threshold": 0.75,
+    "minimum": 0.5,
+    "timeout": 1.1
+  },
+  "asr_backend": "frozen CPU streaming Zipformer, cached per annotated user turn",
+  "real_clock_delivery": true,
+  "service_cost_replay": false,
+  "microphone_or_user_interaction": false,
+  "manual_annotation_required": false,
+  "rl_started": false,
+  "synthetic_audio": true,
+  "limitations": [
+    "ASR backend changed from Parakeet to streaming Zipformer; not a causal comparison with prior results.",
+    "Six synthetic calls, five scripts and repeated stock voices; not real-human independent confirmation.",
+    "Gold annotations define user-turn crop/reset boundaries; this is not autonomous whole-conversation segmentation.",
+    "Original internal calibration thresholds frozen; no fitting or threshold search on this public pilot.",
+    "One engineering run on shared hardware, no deployment latency or matched-risk advantage claim.",
+    "Recorded caller channel only; no generated reply, actual interruption, or responsive user.",
+    "VAD shadow may consume frames after learned response; total wall runtime includes shadow/draining, not dedicated per-policy cost.",
+    "Fixed original policy under a changed ASR backend; do not causally compare with 21.81%/22.63% historical trials."
+  ]
+}

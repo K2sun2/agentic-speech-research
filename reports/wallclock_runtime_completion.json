@@ -1,0 +1,19 @@
+{
+  "status": "local_paced_audio_stateful_asr_pilot_complete",
+  "date": "2026-11-01",
+  "calls": 6,
+  "turns": 24,
+  "real_clock_delivery": true,
+  "stateful_asr": true,
+  "synthetic_audio": true,
+  "annotation_curated_turns": true,
+  "microphone_or_user_interaction": false,
+  "manual_annotation_required": false,
+  "rl_started": false,
+  "tests": {
+    "passed": 58,
+    "warnings": 1
+  },
+  "report": "reports/arl2_wallclock_runtime/README.md",
+  "results_sha256": "c251ce58cc9e48a2d2f8210ad0003b9ff8d8e80c525f2b4e44b58cba628c0a4f"
+}

@@ -3,7 +3,7 @@
   "overall": "feasibility_and_supervised_baseline_evaluation",
   "rl_started": false,
   "manual_annotation_required": false,
-  "latest_report": "reports/arl2_available_sft/README.md",
+  "latest_report": "reports/arl2_wallclock_runtime/README.md",
   "topics": [
     {
       "id": "ARL-1",
@@ -15,9 +15,9 @@
     {
       "id": "ARL-2",
       "stage": "Stage 1 evaluation",
-      "status": "availability-matched SFT failed to reduce cutoff; external static audio signal confirmed on convenience subset",
-      "completed": "modality ablations, frozen heads, causal replay, real VAD, 5027 windows, 1409 timed ASR requests; fit-only input audit; 45 availability-matched heads; controlled old/new recalibration; 972 episode checks; 512 external static Smart Turn clips / 45 original frozen heads",
-      "missing": "independent continuous full-turn matched-risk/coverage evaluation and actual stateful streaming runtime",
+      "status": "local paced stateful-ASR pilot complete; synthetic-turn cutoff still high",
+      "completed": "modality ablations, frozen heads, causal replay, real VAD, 5027 windows, 1409 timed ASR requests; fit-only input audit; 45 availability-matched heads; controlled old/new recalibration; 972 episode checks; 512 external static Smart Turn clips / 45 original frozen heads; actual 32ms wall-clock/stateful Zipformer pilot, 24 curated turns from six synthetic calls",
+      "missing": "existing-labelled natural continuous interaction, matched-risk/coverage evidence, generated reply and responsive user evaluation",
       "historical_inherited_policy": {
         "cutoff": 0.1851851851851852,
         "miss": 0.008230452674897118,
@@ -38,6 +38,18 @@
         "text": 0.5964554051510572,
         "text_audio": 0.7862606253910602,
         "text_audio_prosody": 0.7848856196682283
+      },
+      "wallclock_pilot": {
+        "calls": 6,
+        "turns": 24,
+        "synthetic_audio": true,
+        "annotation_curated_turns": true,
+        "real_clock_delivery": true,
+        "stateful_asr": true,
+        "learned_cutoff": 0.6666666666666666,
+        "vad_cutoff": 0.625,
+        "asr_backend_changed": true,
+        "microphone_or_user_interaction": false
       }
     },
     {

@@ -1,0 +1,37 @@
+{
+  "status": "preregistered_local_wallclock_stateful_asr_pilot",
+  "date": "2026-11-01",
+  "source_sha256": "5e9a64463f019858ce126f2e8ea2f679d9691e9fba2c43d6690e820ca4ecc4ea",
+  "assets_sha256": "2e73251f08fab43ea69b74023bbe4a5b58c721a0f1a5cc0dd8427a72d2c705b6",
+  "selection_sha256": "396aa288e102ac62fb9d28adc635a42b357c9ba8e51ac3f6919e860b4c7a3539",
+  "manifest_sha256": "dc696abb301caf8fcc36f7ee184d1d0b44a012566207a8be1f33bea88658506d",
+  "gold_sha256": "76842ba4e4ee0ec9aaa2ee13321ff2cec06874216c78ea414160f900efcd9581",
+  "turns": 24,
+  "calls": 6,
+  "total_recording_s": 165.98024999999998,
+  "curation": "group caller fragments before each next scripted-agent start; crop from first speech minus200ms through gold end plus1.5s, within original caller track; no added silence; reset ASR per annotated user turn",
+  "resampling": "causal63tap 48kHz to16kHz FIR; no delay compensation; ~0.65ms filter delay, original annotation clock retained",
+  "labels": "script-derived timing; identical annotation tracks are not three human annotators",
+  "policy": {
+    "threshold": 0.75,
+    "minimum": 0.5,
+    "timeout": 1.1
+  },
+  "checkpoint_sha256": "bcf4888c6e53ca63e7bc3141986553a459a431aacf39b8af7134ac6d5fe26f14",
+  "scaler_sha256": "f3ffc145006376d969e86a9b2f78e27847f9ece8a6a0d4de74a0055c5d6c5b1e",
+  "baseline": "1.1s actual Silero silence timer, shadowed on same VAD frame delivery",
+  "streaming_asr": "sherpa-onnx1.13.8 CPU int8 Zipformer chunk16 left64, cached stream per turn, greedy, 2threads, no endpoint reset or EOF flush",
+  "observation": "512-sample frames released at 32ms monotonic deadlines; no cached ASR/features or replayed service costs",
+  "features": "frozen WavLM past<=5s, last<=50 hidden frames; FIFO worker; original scaler; no WORLD features because selected head does not consume them",
+  "availability": "ASR accepted-prefix end is an upper bound on audio consumed by completed streaming decode; no claim of token alignment; reject earlier-gap features; score only same-gap acoustic results",
+  "stopping": "first learned response cancels queued inference; launched work completes and is charged; continue VAD-only shadow until baseline response or real recording EOF",
+  "timing": "physical monotonic elapsed response time; no simulated delays; no microphone capture, network, generated reply or user reaction",
+  "confounds": [
+    "ASR backend changed from Parakeet to streaming Zipformer; not a causal comparison with prior results.",
+    "Six synthetic calls, five scripts and repeated stock voices; not real-human independent confirmation.",
+    "Gold annotations define user-turn crop/reset boundaries; this is not autonomous whole-conversation segmentation.",
+    "Original internal calibration thresholds frozen; no fitting or threshold search on this public pilot."
+  ],
+  "rl_started": false,
+  "new_manual_annotation": false
+}

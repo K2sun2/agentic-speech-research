@@ -9,18 +9,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 2159,
-      "sha256": "ee93975677ea46654eaf22e0d26be4f0671577d0b9a791141ec85f6aa7082f4d"
+      "bytes": 2594,
+      "sha256": "bbbe59440f70a71ee38311a725637ece6d1185f437e2b8c914fcce9681c6a3e8"
     },
     {
       "path": "configs/automatic_route.json",
-      "bytes": 2691,
-      "sha256": "9604d17639436d0df3779e3c7c4a2ed9ec8c25184044c1ff3b789b4bdfdc002e"
+      "bytes": 3119,
+      "sha256": "17040852be0498dace5a4139a147f9eff400f411b724ab7218e80c61881c816c"
     },
     {
       "path": "index.html",
-      "bytes": 465594,
-      "sha256": "ee902e899f8ffacbce5049b42ab783c55637f8aae3624691c71333588c162cd5"
+      "bytes": 482920,
+      "sha256": "2733ebc9c5250f456a939577f6937a5e69d65ce5c0786c8ce7dd5ade85f0b37f"
     },
     {
       "path": "reports/arl1_independent/decision.json",
@@ -138,6 +138,26 @@
       "sha256": "0f710e75f45f779574a352ffced8bba7276c79a0c9d43c09a69baa332b2e09f7"
     },
     {
+      "path": "reports/arl2_wallclock_runtime/README.md",
+      "bytes": 4083,
+      "sha256": "aeb84f48302df720f25b1ce57786ad3d784e1c4a90c3245fe35fb9f8149c886d"
+    },
+    {
+      "path": "reports/arl2_wallclock_runtime/protocol.json",
+      "bytes": 2877,
+      "sha256": "04546d5f0a47e8c3a7f7644978aa339b6f8a143c41baae4392bc8dd906503a41"
+    },
+    {
+      "path": "reports/arl2_wallclock_runtime/results.json",
+      "bytes": 13643,
+      "sha256": "c251ce58cc9e48a2d2f8210ad0003b9ff8d8e80c525f2b4e44b58cba628c0a4f"
+    },
+    {
+      "path": "reports/arl2_wallclock_runtime/verification.json",
+      "bytes": 3520,
+      "sha256": "e9fd4ff2f10ce4920a0e4c227c88f20ab84cbbc5977702b8128f03e62bd5163c"
+    },
+    {
       "path": "reports/available_sft_completion.json",
       "bytes": 1062,
       "sha256": "c3b37246f6f8540d47073aaaf8c99404d1ff7de0fa399951a5267f67720214e0"
@@ -149,8 +169,8 @@
     },
     {
       "path": "reports/research_stage_progress.json",
-      "bytes": 2528,
-      "sha256": "bd7a8e0ced170395c568f376660fc94ac6e42c0c11d2a30401a6126d890d53b6"
+      "bytes": 2991,
+      "sha256": "9666ad6e8673afe506a1aa8735fdc890b65f741ceb196e06697611bcb4c9ef0f"
     },
     {
       "path": "reports/vad_controller_completion.json",
@@ -161,6 +181,11 @@
       "path": "reports/vad_external_completion.json",
       "bytes": 1583,
       "sha256": "fbcf4d983abc376569e6ab9632fda4efd1d2fecfab10d7296bcf5234f7f70de0"
+    },
+    {
+      "path": "reports/wallclock_runtime_completion.json",
+      "bytes": 538,
+      "sha256": "45270ef8bb96cba55920457765f207a6a6b6bc6bc06adff80a0c249ddcaf23a5"
     },
     {
       "path": "web/annotations/DATASET_LICENSE.txt",
