@@ -1,0 +1,1174 @@
+{
+  "status": "external_static_clip_classification_complete",
+  "date": "2026-11-01",
+  "repository": "pipecat-ai/smart-turn-data-v3.1-test",
+  "revision": "22b4ec796d222da74beac14245603fba7653ac3f",
+  "selection": {
+    "total_shard_rows": 3497,
+    "eligible_english_nonsynthetic": 607,
+    "preselected": 512,
+    "retained": 512,
+    "excluded": [],
+    "unique_source_ids": 512,
+    "samples_by_native_rate": {
+      "16000": 512
+    },
+    "sources": {
+      "human_5": 36,
+      "human_convcollector_1": 8,
+      "liva_1": 368,
+      "midcentury_1": 100
+    },
+    "protocol_sha256": "b1f7ed3fd8b4ea6949f1f44f5d16ab61f6193b5fded58f94ab20404cba4daee8"
+  },
+  "label_counts": {
+    "endpoint": 259,
+    "incomplete": 253
+  },
+  "records": [
+    {
+      "split": 20261031,
+      "name": "text_11",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 191,
+        "true_negative": 103,
+        "false_positive": 150,
+        "false_negative": 68,
+        "accuracy": 0.57421875,
+        "positive_recall": 0.7374517374517374,
+        "negative_fpr": 0.5928853754940712,
+        "balanced_accuracy": 0.5722831809788331,
+        "positive_decision_rate": 0.666015625,
+        "auroc": 0.6083446518229128
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_22",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 188,
+        "true_negative": 102,
+        "false_positive": 151,
+        "false_negative": 71,
+        "accuracy": 0.56640625,
+        "positive_recall": 0.7258687258687259,
+        "negative_fpr": 0.5968379446640316,
+        "balanced_accuracy": 0.5645153906023471,
+        "positive_decision_rate": 0.662109375,
+        "auroc": 0.6071848245761289
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_33",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 192,
+        "true_negative": 100,
+        "false_positive": 153,
+        "false_negative": 67,
+        "accuracy": 0.5703125,
+        "positive_recall": 0.7413127413127413,
+        "negative_fpr": 0.6047430830039525,
+        "balanced_accuracy": 0.5682848291543944,
+        "positive_decision_rate": 0.673828125,
+        "auroc": 0.6083751735925649
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 232,
+        "true_negative": 120,
+        "false_positive": 133,
+        "false_negative": 27,
+        "accuracy": 0.6875,
+        "positive_recall": 0.8957528957528957,
+        "negative_fpr": 0.525691699604743,
+        "balanced_accuracy": 0.6850305980740763,
+        "positive_decision_rate": 0.712890625,
+        "auroc": 0.8140308575091184
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 237,
+        "true_negative": 114,
+        "false_positive": 139,
+        "false_negative": 22,
+        "accuracy": 0.685546875,
+        "positive_recall": 0.915057915057915,
+        "negative_fpr": 0.549407114624506,
+        "balanced_accuracy": 0.6828254002167046,
+        "positive_decision_rate": 0.734375,
+        "auroc": 0.8128405084926824
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 232,
+        "true_negative": 116,
+        "false_positive": 137,
+        "false_negative": 27,
+        "accuracy": 0.6796875,
+        "positive_recall": 0.8957528957528957,
+        "negative_fpr": 0.541501976284585,
+        "balanced_accuracy": 0.6771254597341554,
+        "positive_decision_rate": 0.720703125,
+        "auroc": 0.8092770918857874
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 230,
+        "true_negative": 128,
+        "false_positive": 125,
+        "false_negative": 29,
+        "accuracy": 0.69921875,
+        "positive_recall": 0.888030888030888,
+        "negative_fpr": 0.49407114624505927,
+        "balanced_accuracy": 0.6969798708929144,
+        "positive_decision_rate": 0.693359375,
+        "auroc": 0.8078959818090253
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 227,
+        "true_negative": 134,
+        "false_positive": 119,
+        "false_negative": 32,
+        "accuracy": 0.705078125,
+        "positive_recall": 0.8764478764478765,
+        "negative_fpr": 0.47035573122529645,
+        "balanced_accuracy": 0.70304607261129,
+        "positive_decision_rate": 0.67578125,
+        "auroc": 0.8110092023135501
+      }
+    },
+    {
+      "split": 20261031,
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 230,
+        "true_negative": 122,
+        "false_positive": 131,
+        "false_negative": 29,
+        "accuracy": 0.6875,
+        "positive_recall": 0.888030888030888,
+        "negative_fpr": 0.5177865612648221,
+        "balanced_accuracy": 0.6851221633830329,
+        "positive_decision_rate": 0.705078125,
+        "auroc": 0.809345765867505
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_11",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 163,
+        "true_negative": 142,
+        "false_positive": 111,
+        "false_negative": 96,
+        "accuracy": 0.595703125,
+        "positive_recall": 0.6293436293436293,
+        "negative_fpr": 0.43873517786561267,
+        "balanced_accuracy": 0.5953042257390083,
+        "positive_decision_rate": 0.53515625,
+        "auroc": 0.6222931005539701
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_22",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 164,
+        "true_negative": 144,
+        "false_positive": 109,
+        "false_negative": 95,
+        "accuracy": 0.6015625,
+        "positive_recall": 0.6332046332046332,
+        "negative_fpr": 0.4308300395256917,
+        "balanced_accuracy": 0.6011872968394707,
+        "positive_decision_rate": 0.533203125,
+        "auroc": 0.6205380987989684
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_33",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 169,
+        "true_negative": 136,
+        "false_positive": 117,
+        "false_negative": 90,
+        "accuracy": 0.595703125,
+        "positive_recall": 0.6525096525096525,
+        "negative_fpr": 0.4624505928853755,
+        "balanced_accuracy": 0.5950295298121385,
+        "positive_decision_rate": 0.55859375,
+        "auroc": 0.6212553603857952
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 196,
+        "true_negative": 163,
+        "false_positive": 90,
+        "false_negative": 63,
+        "accuracy": 0.701171875,
+        "positive_recall": 0.7567567567567568,
+        "negative_fpr": 0.3557312252964427,
+        "balanced_accuracy": 0.7005127657301571,
+        "positive_decision_rate": 0.55859375,
+        "auroc": 0.7750850794329056
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 203,
+        "true_negative": 156,
+        "false_positive": 97,
+        "false_negative": 56,
+        "accuracy": 0.701171875,
+        "positive_recall": 0.7837837837837838,
+        "negative_fpr": 0.383399209486166,
+        "balanced_accuracy": 0.7001922871488089,
+        "positive_decision_rate": 0.5859375,
+        "auroc": 0.7814183466357378
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 205,
+        "true_negative": 155,
+        "false_positive": 98,
+        "false_negative": 54,
+        "accuracy": 0.703125,
+        "positive_recall": 0.7915057915057915,
+        "negative_fpr": 0.38735177865612647,
+        "balanced_accuracy": 0.7020770064248325,
+        "positive_decision_rate": 0.591796875,
+        "auroc": 0.7781982999374304
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 191,
+        "true_negative": 163,
+        "false_positive": 90,
+        "false_negative": 68,
+        "accuracy": 0.69140625,
+        "positive_recall": 0.7374517374517374,
+        "negative_fpr": 0.3557312252964427,
+        "balanced_accuracy": 0.6908602560776473,
+        "positive_decision_rate": 0.548828125,
+        "auroc": 0.7659438094220703
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 196,
+        "true_negative": 167,
+        "false_positive": 86,
+        "false_negative": 63,
+        "accuracy": 0.708984375,
+        "positive_recall": 0.7567567567567568,
+        "negative_fpr": 0.33992094861660077,
+        "balanced_accuracy": 0.708417904070078,
+        "positive_decision_rate": 0.55078125,
+        "auroc": 0.7725670334365986
+      }
+    },
+    {
+      "split": 20261101,
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 203,
+        "true_negative": 160,
+        "false_positive": 93,
+        "false_negative": 56,
+        "accuracy": 0.708984375,
+        "positive_recall": 0.7837837837837838,
+        "negative_fpr": 0.3675889328063241,
+        "balanced_accuracy": 0.7080974254887298,
+        "positive_decision_rate": 0.578125,
+        "auroc": 0.7835396096265662
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_11",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 196,
+        "true_negative": 94,
+        "false_positive": 159,
+        "false_negative": 63,
+        "accuracy": 0.56640625,
+        "positive_recall": 0.7567567567567568,
+        "negative_fpr": 0.6284584980237155,
+        "balanced_accuracy": 0.5641491293665207,
+        "positive_decision_rate": 0.693359375,
+        "auroc": 0.5824621911578434
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_22",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 197,
+        "true_negative": 93,
+        "false_positive": 160,
+        "false_negative": 62,
+        "accuracy": 0.56640625,
+        "positive_recall": 0.7606177606177607,
+        "negative_fpr": 0.6324110671936759,
+        "balanced_accuracy": 0.5641033467120424,
+        "positive_decision_rate": 0.697265625,
+        "auroc": 0.5816533642620599
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_33",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 199,
+        "true_negative": 90,
+        "false_positive": 163,
+        "false_negative": 60,
+        "accuracy": 0.564453125,
+        "positive_recall": 0.7683397683397684,
+        "negative_fpr": 0.6442687747035574,
+        "balanced_accuracy": 0.5620354968181055,
+        "positive_decision_rate": 0.70703125,
+        "auroc": 0.5839882796404535
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 240,
+        "true_negative": 92,
+        "false_positive": 161,
+        "false_negative": 19,
+        "accuracy": 0.6484375,
+        "positive_recall": 0.9266409266409267,
+        "negative_fpr": 0.6363636363636364,
+        "balanced_accuracy": 0.6451386451386452,
+        "positive_decision_rate": 0.783203125,
+        "auroc": 0.7721397286614679
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 240,
+        "true_negative": 92,
+        "false_positive": 161,
+        "false_negative": 19,
+        "accuracy": 0.6484375,
+        "positive_recall": 0.9266409266409267,
+        "negative_fpr": 0.6363636363636364,
+        "balanced_accuracy": 0.6451386451386452,
+        "positive_decision_rate": 0.783203125,
+        "auroc": 0.7707815099119448
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 241,
+        "true_negative": 91,
+        "false_positive": 162,
+        "false_negative": 18,
+        "accuracy": 0.6484375,
+        "positive_recall": 0.9305019305019305,
+        "negative_fpr": 0.6403162055335968,
+        "balanced_accuracy": 0.6450928624841669,
+        "positive_decision_rate": 0.787109375,
+        "auroc": 0.7728417293634684
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 240,
+        "true_negative": 95,
+        "false_positive": 158,
+        "false_negative": 19,
+        "accuracy": 0.654296875,
+        "positive_recall": 0.9266409266409267,
+        "negative_fpr": 0.6245059288537549,
+        "balanced_accuracy": 0.6510674988935858,
+        "positive_decision_rate": 0.77734375,
+        "auroc": 0.7674241152502022
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 240,
+        "true_negative": 97,
+        "false_positive": 156,
+        "false_negative": 19,
+        "accuracy": 0.658203125,
+        "positive_recall": 0.9266409266409267,
+        "negative_fpr": 0.616600790513834,
+        "balanced_accuracy": 0.6550200680635463,
+        "positive_decision_rate": 0.7734375,
+        "auroc": 0.769041769041769
+      }
+    },
+    {
+      "split": 20261102,
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 239,
+        "true_negative": 94,
+        "false_positive": 159,
+        "false_negative": 20,
+        "accuracy": 0.650390625,
+        "positive_recall": 0.9227799227799228,
+        "negative_fpr": 0.6284584980237155,
+        "balanced_accuracy": 0.6471607123781037,
+        "positive_decision_rate": 0.77734375,
+        "auroc": 0.7738947304164696
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_11",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 158,
+        "true_negative": 135,
+        "false_positive": 118,
+        "false_negative": 101,
+        "accuracy": 0.572265625,
+        "positive_recall": 0.61003861003861,
+        "negative_fpr": 0.466403162055336,
+        "balanced_accuracy": 0.5718177239916371,
+        "positive_decision_rate": 0.5390625,
+        "auroc": 0.5912677217025043
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_22",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 160,
+        "true_negative": 136,
+        "false_positive": 117,
+        "false_negative": 99,
+        "accuracy": 0.578125,
+        "positive_recall": 0.6177606177606177,
+        "negative_fpr": 0.4624505928853755,
+        "balanced_accuracy": 0.5776550124376212,
+        "positive_decision_rate": 0.541015625,
+        "auroc": 0.5894058937537199
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_33",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 162,
+        "true_negative": 130,
+        "false_positive": 123,
+        "false_negative": 97,
+        "accuracy": 0.5703125,
+        "positive_recall": 0.6254826254826255,
+        "negative_fpr": 0.48616600790513836,
+        "balanced_accuracy": 0.5696583087887436,
+        "positive_decision_rate": 0.556640625,
+        "auroc": 0.5898179376440246
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 234,
+        "true_negative": 128,
+        "false_positive": 125,
+        "false_negative": 25,
+        "accuracy": 0.70703125,
+        "positive_recall": 0.9034749034749034,
+        "negative_fpr": 0.49407114624505927,
+        "balanced_accuracy": 0.7047018786149221,
+        "positive_decision_rate": 0.701171875,
+        "auroc": 0.8047980221893265
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 232,
+        "true_negative": 130,
+        "false_positive": 123,
+        "false_negative": 27,
+        "accuracy": 0.70703125,
+        "positive_recall": 0.8957528957528957,
+        "negative_fpr": 0.48616600790513836,
+        "balanced_accuracy": 0.7047934439238788,
+        "positive_decision_rate": 0.693359375,
+        "auroc": 0.7974575365879715
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 233,
+        "true_negative": 134,
+        "false_positive": 119,
+        "false_negative": 26,
+        "accuracy": 0.716796875,
+        "positive_recall": 0.8996138996138996,
+        "negative_fpr": 0.47035573122529645,
+        "balanced_accuracy": 0.7146290841943016,
+        "positive_decision_rate": 0.6875,
+        "auroc": 0.7994567125001908
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 233,
+        "true_negative": 126,
+        "false_positive": 127,
+        "false_negative": 26,
+        "accuracy": 0.701171875,
+        "positive_recall": 0.8996138996138996,
+        "negative_fpr": 0.5019762845849802,
+        "balanced_accuracy": 0.6988188075144597,
+        "positive_decision_rate": 0.703125,
+        "auroc": 0.8015627146061928
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 232,
+        "true_negative": 129,
+        "false_positive": 124,
+        "false_negative": 27,
+        "accuracy": 0.705078125,
+        "positive_recall": 0.8957528957528957,
+        "negative_fpr": 0.4901185770750988,
+        "balanced_accuracy": 0.7028171593388985,
+        "positive_decision_rate": 0.6953125,
+        "auroc": 0.8013948448731057
+      }
+    },
+    {
+      "split": 20261103,
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 233,
+        "true_negative": 129,
+        "false_positive": 124,
+        "false_negative": 26,
+        "accuracy": 0.70703125,
+        "positive_recall": 0.8996138996138996,
+        "negative_fpr": 0.4901185770750988,
+        "balanced_accuracy": 0.7047476612694004,
+        "positive_decision_rate": 0.697265625,
+        "auroc": 0.8041723259114564
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_11",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 184,
+        "true_negative": 98,
+        "false_positive": 155,
+        "false_negative": 75,
+        "accuracy": 0.55078125,
+        "positive_recall": 0.7104247104247104,
+        "negative_fpr": 0.6126482213438735,
+        "balanced_accuracy": 0.5488882445404184,
+        "positive_decision_rate": 0.662109375,
+        "auroc": 0.5803561890518413
+      },
+      "inherited_static_policy": {
+        "threshold": 0.65,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 90,
+          "true_negative": 189,
+          "false_positive": 64,
+          "false_negative": 169,
+          "accuracy": 0.544921875,
+          "positive_recall": 0.3474903474903475,
+          "negative_fpr": 0.25296442687747034,
+          "balanced_accuracy": 0.5472629603064386,
+          "positive_decision_rate": 0.30078125
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_22",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 186,
+        "true_negative": 97,
+        "false_positive": 156,
+        "false_negative": 73,
+        "accuracy": 0.552734375,
+        "positive_recall": 0.7181467181467182,
+        "negative_fpr": 0.616600790513834,
+        "balanced_accuracy": 0.550772963816442,
+        "positive_decision_rate": 0.66796875,
+        "auroc": 0.5794557968471012
+      },
+      "inherited_static_policy": {
+        "threshold": 0.6000000000000001,
+        "minimum": 0.5,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 121,
+          "true_negative": 172,
+          "false_positive": 81,
+          "false_negative": 138,
+          "accuracy": 0.572265625,
+          "positive_recall": 0.4671814671814672,
+          "negative_fpr": 0.3201581027667984,
+          "balanced_accuracy": 0.5735116822073344,
+          "positive_decision_rate": 0.39453125
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_33",
+      "modality": "text",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 185,
+        "true_negative": 93,
+        "false_positive": 160,
+        "false_negative": 74,
+        "accuracy": 0.54296875,
+        "positive_recall": 0.7142857142857143,
+        "negative_fpr": 0.6324110671936759,
+        "balanced_accuracy": 0.5409373235460192,
+        "positive_decision_rate": 0.673828125,
+        "auroc": 0.5804324934759717
+      },
+      "inherited_static_policy": {
+        "threshold": 0.65,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 98,
+          "true_negative": 186,
+          "false_positive": 67,
+          "false_negative": 161,
+          "accuracy": 0.5546875,
+          "positive_recall": 0.3783783783783784,
+          "negative_fpr": 0.2648221343873518,
+          "balanced_accuracy": 0.5567781219955132,
+          "positive_decision_rate": 0.322265625
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 237,
+        "true_negative": 107,
+        "false_positive": 146,
+        "false_negative": 22,
+        "accuracy": 0.671875,
+        "positive_recall": 0.915057915057915,
+        "negative_fpr": 0.5770750988142292,
+        "balanced_accuracy": 0.6689914081218429,
+        "positive_decision_rate": 0.748046875,
+        "auroc": 0.7678666809101592
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 186,
+          "true_negative": 162,
+          "false_positive": 91,
+          "false_negative": 73,
+          "accuracy": 0.6796875,
+          "positive_recall": 0.7181467181467182,
+          "negative_fpr": 0.35968379446640314,
+          "balanced_accuracy": 0.6792314618401575,
+          "positive_decision_rate": 0.541015625
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 240,
+        "true_negative": 103,
+        "false_positive": 150,
+        "false_negative": 19,
+        "accuracy": 0.669921875,
+        "positive_recall": 0.9266409266409267,
+        "negative_fpr": 0.5928853754940712,
+        "balanced_accuracy": 0.6668777755734278,
+        "positive_decision_rate": 0.76171875,
+        "auroc": 0.7686755078059425
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 192,
+          "true_negative": 155,
+          "false_positive": 98,
+          "false_negative": 67,
+          "accuracy": 0.677734375,
+          "positive_recall": 0.7413127413127413,
+          "negative_fpr": 0.38735177865612647,
+          "balanced_accuracy": 0.6769804813283073,
+          "positive_decision_rate": 0.56640625
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 238,
+        "true_negative": 101,
+        "false_positive": 152,
+        "false_negative": 21,
+        "accuracy": 0.662109375,
+        "positive_recall": 0.918918918918919,
+        "negative_fpr": 0.6007905138339921,
+        "balanced_accuracy": 0.6590642025424635,
+        "positive_decision_rate": 0.76171875,
+        "auroc": 0.7690417690417691
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 191,
+          "true_negative": 158,
+          "false_positive": 95,
+          "false_negative": 68,
+          "accuracy": 0.681640625,
+          "positive_recall": 0.7374517374517374,
+          "negative_fpr": 0.37549407114624506,
+          "balanced_accuracy": 0.6809788331527462,
+          "positive_decision_rate": 0.55859375
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 236,
+        "true_negative": 113,
+        "false_positive": 140,
+        "false_negative": 23,
+        "accuracy": 0.681640625,
+        "positive_recall": 0.9111969111969112,
+        "negative_fpr": 0.5533596837944664,
+        "balanced_accuracy": 0.6789186137012224,
+        "positive_decision_rate": 0.734375,
+        "auroc": 0.7677445938315504
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 189,
+          "true_negative": 168,
+          "false_positive": 85,
+          "false_negative": 70,
+          "accuracy": 0.697265625,
+          "positive_recall": 0.7297297297297297,
+          "negative_fpr": 0.3359683794466403,
+          "balanced_accuracy": 0.6968806751415447,
+          "positive_decision_rate": 0.53515625
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 236,
+        "true_negative": 110,
+        "false_positive": 143,
+        "false_negative": 23,
+        "accuracy": 0.67578125,
+        "positive_recall": 0.9111969111969112,
+        "negative_fpr": 0.5652173913043478,
+        "balanced_accuracy": 0.6729897599462816,
+        "positive_decision_rate": 0.740234375,
+        "auroc": 0.7670425931295496
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 186,
+          "true_negative": 172,
+          "false_positive": 81,
+          "false_negative": 73,
+          "accuracy": 0.69921875,
+          "positive_recall": 0.7181467181467182,
+          "negative_fpr": 0.3201581027667984,
+          "balanced_accuracy": 0.6989943076899598,
+          "positive_decision_rate": 0.521484375
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "metrics": {
+        "clips": 512,
+        "positive": 259,
+        "negative": 253,
+        "true_positive": 237,
+        "true_negative": 110,
+        "false_positive": 143,
+        "false_negative": 22,
+        "accuracy": 0.677734375,
+        "positive_recall": 0.915057915057915,
+        "negative_fpr": 0.5652173913043478,
+        "balanced_accuracy": 0.6749202618767836,
+        "positive_decision_rate": 0.7421875,
+        "auroc": 0.7707052054878142
+      },
+      "inherited_static_policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null,
+        "metrics": {
+          "clips": 512,
+          "positive": 259,
+          "negative": 253,
+          "true_positive": 188,
+          "true_negative": 169,
+          "false_positive": 84,
+          "false_negative": 71,
+          "accuracy": 0.697265625,
+          "positive_recall": 0.7258687258687259,
+          "negative_fpr": 0.33201581027667987,
+          "balanced_accuracy": 0.696926457796023,
+          "positive_decision_rate": 0.53125
+        }
+      }
+    }
+  ],
+  "summary": {
+    "text": {
+      "heads": 15,
+      "same_clips": 512,
+      "means": {
+        "clips": 512.0,
+        "positive": 259.0,
+        "negative": 253.0,
+        "true_positive": 179.6,
+        "true_negative": 112.86666666666666,
+        "false_positive": 140.13333333333333,
+        "false_negative": 79.4,
+        "accuracy": 0.5712239583333333,
+        "positive_recall": 0.6934362934362934,
+        "negative_fpr": 0.5538866930171279,
+        "balanced_accuracy": 0.5697748002095828,
+        "positive_decision_rate": 0.6244791666666667,
+        "auroc": 0.5964554051510572
+      }
+    },
+    "text_audio": {
+      "heads": 15,
+      "same_clips": 512,
+      "means": {
+        "clips": 512.0,
+        "positive": 259.0,
+        "negative": 253.0,
+        "true_positive": 229.33333333333334,
+        "true_negative": 120.13333333333334,
+        "false_positive": 132.86666666666667,
+        "false_negative": 29.666666666666668,
+        "accuracy": 0.6825520833333333,
+        "positive_recall": 0.8854568854568855,
+        "negative_fpr": 0.5251646903820818,
+        "balanced_accuracy": 0.6801460975374017,
+        "positive_decision_rate": 0.707421875,
+        "auroc": 0.7862606253910602
+      }
+    },
+    "text_audio_prosody": {
+      "heads": 15,
+      "same_clips": 512,
+      "means": {
+        "clips": 512.0,
+        "positive": 259.0,
+        "negative": 253.0,
+        "true_positive": 226.86666666666667,
+        "true_negative": 125.13333333333334,
+        "false_positive": 127.86666666666666,
+        "false_negative": 32.13333333333333,
+        "accuracy": 0.6875,
+        "positive_recall": 0.8759330759330759,
+        "negative_fpr": 0.5054018445322793,
+        "balanced_accuracy": 0.6852656157003983,
+        "positive_decision_rate": 0.6928385416666667,
+        "auroc": 0.7848856196682283
+      }
+    }
+  },
+  "models": 45,
+  "new_training": false,
+  "rl": false,
+  "manual_annotation_required": false,
+  "full_turn_cutoff_latency": null,
+  "live_streaming": false,
+  "limitations": [
+    "Single first-shard convenience subset, not the full official benchmark.",
+    "Static clip labels cannot establish full-turn cutoff/latency or closed-loop interaction.",
+    "15 frozen heads per modality share the same clips; not 15 independent datasets.",
+    "No external threshold search or fine-tuning; original EoT scalers retained.",
+    "Cross-source speaker/recording overlap cannot be fully verified.",
+    "No emotion-aware action correctness, subjective naturalness or RL benefit claim."
+  ]
+}

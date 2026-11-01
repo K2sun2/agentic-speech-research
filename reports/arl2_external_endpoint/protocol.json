@@ -1,0 +1,103 @@
+{
+  "status": "preregistered_external_static_endpoint_classification",
+  "date": "2026-11-01",
+  "repository": "pipecat-ai/smart-turn-data-v3.1-test",
+  "revision": "22b4ec796d222da74beac14245603fba7653ac3f",
+  "official_split": "train",
+  "split_interpretation": "released test repository; evaluation only, never fit",
+  "shard": "data/train-00000-of-00009.parquet",
+  "shard_bytes": 481161775,
+  "shard_sha256": "272d19c7374fade945f5b623f341472556b285995c2e2caa4478e0fa05f603eb",
+  "limit": 512,
+  "selection": "English non-synthetic rows in first lexical shard; SHA256 rank of fixed seed, id and row index; first <=512; no score/label selection",
+  "technical_exclusions": "invalid mono audio, duration outside [0.5,60] seconds; record exclusions without replacement",
+  "observation": "actual clip end; WavLM past <=5 seconds; VAD uses last complete 32ms frame; no appended future silence",
+  "text": "actual prefix ASR ends floor((clip_end - .3)*16000); punctuation stripped, last64 words; static offline inference, no availability guarantee",
+  "time_features": "observed VAD gap /1.5 and .3s ASR prefix age /1.5; no endpoint label or filename features",
+  "outcomes": "clip endpoint_bool classification AUROC, balanced accuracy, FPR/recall; these are not full-turn cutoff/latency metrics",
+  "primary": "all 45 frozen old heads on same external subset; summarize 15 heads/modality, not independent datasets",
+  "secondary": "inherited 9 eligible policies: respond-now decisions at clip end only; no future wait extrapolation",
+  "frozen_checkpoints": {
+    "20261031": {
+      "scaler": "fe73be457b6fd0fba863da0590aaaed2d580c7df2a0c4a1ebf77ed4104cd8596",
+      "heads": {
+        "text_11.pt": "6955e003a7696e820a74d39593dd1c0284b8e276601e59d4a30871e2512252f5",
+        "text_22.pt": "a924b9fcaf2d382d94999c6680f075697b7f6fa0ac80361a49b1b6ec965b32bc",
+        "text_33.pt": "fe6cf85cc386aecc54937b167fd4970908b7a024e243314ec168f0d34c634727",
+        "text_audio_11.pt": "6c7a0ec636e41a88bef538915f5417993998439f538f5092ef86f6b520fbdd56",
+        "text_audio_22.pt": "08529759df6754066bb302d5ce1a262ecdb32d3d95bece2719b5c1aeb96900ff",
+        "text_audio_33.pt": "af1be79437e719de16c843d38032e0e0d6b3a35b0a7ab49e34c6e0056c24019e",
+        "text_audio_prosody_11.pt": "d1bb5b8c3c4f45e7f9db38ab24924ec879ca091ad7da8af2a2e8815dbdf447fa",
+        "text_audio_prosody_22.pt": "76996bdf9deefbfc35623db735ffa03b2767722bde9aa86fa4fa0616b735a552",
+        "text_audio_prosody_33.pt": "f3cd0a08c73586e645bc494443db8fbbfdc514a89d31e9dfb4d8932038d02d91"
+      }
+    },
+    "20261101": {
+      "scaler": "78d0a5cc42be7d568b1f2e28700e329dab8a5aed6982c6e5b44ef7ae91c6435a",
+      "heads": {
+        "text_11.pt": "ff1e292600b4362bfd426467f14070e8481fbb5910c5b000250e841ad5fd3098",
+        "text_22.pt": "535b76cc96f0569b8607ef01cf835c3a9b16629beb5f4acdaefc79a2d94f0068",
+        "text_33.pt": "99ef2a480a79f221b06533fa3f6c442789efd9203e0c3aa4c3fcb8e680946873",
+        "text_audio_11.pt": "b6e6b6afb23ded806d1390c4f7d7e69ee8c40b59ea1e3f0f24d799e0cb398198",
+        "text_audio_22.pt": "042f06c89cd0de436f1a0be859dfc4048209fe9cc914312c9af31a4dd1c5a4fe",
+        "text_audio_33.pt": "36260bbbde07875770434f2b00f3c389e47cdd4697beb95deebc6173f170a896",
+        "text_audio_prosody_11.pt": "2ddba4293b98c28e07c690dfeb649a74ed449e18461fef904a7924ca2dff3738",
+        "text_audio_prosody_22.pt": "c6e011efab9112dc1ea5fb56ca94994344117b894766d25a0f8ce658b158dd23",
+        "text_audio_prosody_33.pt": "1584dff9917b247bf68416b12d7c7ae1f2fdcacece92df0949eaf2df5589c7d2"
+      }
+    },
+    "20261102": {
+      "scaler": "c7cf290d89225964987a0837809bdaf7718a45457db740a7754168925e7dac47",
+      "heads": {
+        "text_11.pt": "52f0b73d3b36f09af51238ca0f2cae3e60350dcffd35b381b4bc0761f53e8fcf",
+        "text_22.pt": "a87df027c23f02524a3481cfb5f44ecf0c3a7b37924841b75f6f94568397dc73",
+        "text_33.pt": "9a07e5c3171739855a83f25efcf610e15d4e59ac98e8d2114fe8cc2d2e819c7a",
+        "text_audio_11.pt": "5e59341a76affad6137bb08907c12d91fcf56dca922ec99334db28a5a947fb9d",
+        "text_audio_22.pt": "b3cd5d5effaf7110f8bb4c534e6bc17a6e29524055bc29324b8a723233f4bc97",
+        "text_audio_33.pt": "b6f2f66e8f005d969e4cb1d248f8240894af3213dcde9f2e7845f4b1dffb4eea",
+        "text_audio_prosody_11.pt": "48cf86ac19f11b2e5391c3c302f9fea897259f3d361c4fef9d1de408d9b20e4e",
+        "text_audio_prosody_22.pt": "1826d3ee33497db61e74c734693f5a1bead6e1d25f444d7b5977365da7b5ff70",
+        "text_audio_prosody_33.pt": "0e5206839d0f7d1817bcd8e741cb49a7068223578b01d96a7ac889cb8fdde0d2"
+      }
+    },
+    "20261103": {
+      "scaler": "af3c3117044c44f4a8476adab039ae58404ffb61132d0f4162a7280fa0c580b6",
+      "heads": {
+        "text_11.pt": "bbc886dd1fcc7a46d91d78e9b51504877d49443098286af2b7bcd22d7ba14f1b",
+        "text_22.pt": "2903f4d10e469753b3056bb9473fca314f666e7ac0332da801fc5f971929952f",
+        "text_33.pt": "787be950122e3a66b9d8fccfacb086ae91c05597eae0f68ac4484f5a284ca270",
+        "text_audio_11.pt": "2e3b97941a2e06e9ab0d51db0de8b332b4a9c83d66b941f116dfc526a395c9b4",
+        "text_audio_22.pt": "af49abce2a740ddf9af038bbe13409e5af764f1813ce1da6b464c604fc9dda60",
+        "text_audio_33.pt": "48976104790b16c274041707402720b3be1dae0f6009ca9d79aad0b11abb86b4",
+        "text_audio_prosody_11.pt": "56293aac86e2293912d3830d5dcea0c8bd20fd338d00b1974fe3863762989ff9",
+        "text_audio_prosody_22.pt": "46e04d3a2f0691a50a88b3dda8ee4d91837e931f410e1eaae81540fdcb1f4b38",
+        "text_audio_prosody_33.pt": "7d1afe902d047465839853a40b1925af8f87451037e1f218c3a6489bd405cfe0"
+      }
+    },
+    "20261104": {
+      "scaler": "f3ffc145006376d969e86a9b2f78e27847f9ece8a6a0d4de74a0055c5d6c5b1e",
+      "heads": {
+        "text_11.pt": "123caa22007be5a2e9e336aef5c88508f92486416c5f74febe4adb50b11cddc4",
+        "text_22.pt": "2ae74e2bbeb41c97552bfde0cc2980c86d25c642576489ecc1cae5c34da834de",
+        "text_33.pt": "92ab40070e1eb2875342f983014590d813f5cc1591d3bdb0e2e3b97ca2f8b78b",
+        "text_audio_11.pt": "bcf4888c6e53ca63e7bc3141986553a459a431aacf39b8af7134ac6d5fe26f14",
+        "text_audio_22.pt": "8ccfd5e37eb9a561fe62a38d1dda7c5b78265dc3cb2f1d2a16f9400cb17882f5",
+        "text_audio_33.pt": "fdf83b804cb92989bc67cda45e13ca4e6d45e5fe47a88bc2b7126d5c5c124dbf",
+        "text_audio_prosody_11.pt": "adf9f6ccc7a1def0e9a4be0b58354438ebe055bec5f2300846032ad555240c3e",
+        "text_audio_prosody_22.pt": "35680662199757957863f23ceef5a7156c5cdb0fe93dc9ca8c0dbb35bf62dd64",
+        "text_audio_prosody_33.pt": "01998fe9f245e63fd1bf46a05fb0fb968e1ce2335576010ae035bd6808e80499"
+      }
+    }
+  },
+  "previous_policy_sha256": "70763f15856cd945f694e74f87ef183ac12ebc281794fc6248103a0961797298",
+  "source_sha256": "84e1b49a0fd0ba0c39b66d3717ddf84be71edb27ff02460bc05ff6007af36fe2",
+  "training": false,
+  "new_threshold_selection": false,
+  "new_manual_annotation": false,
+  "limitations": [
+    "Convenience subset of one test shard, not the full official benchmark.",
+    "Static clips provide no continuous response trajectory or latency ground truth.",
+    "Provided endpoint labels are source labels; their human provenance is not asserted.",
+    "Different published corpus; real speaker/source overlap with private EoT recordings cannot be fully verified."
+  ]
+}

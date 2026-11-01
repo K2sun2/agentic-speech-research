@@ -1,0 +1,7 @@
+{
+  "training_protocol_sha256": "6d0b052a9b791236e426ca1485aa93c0ad42368cc1fe4f7668edd58d5c84c732",
+  "source_sha256": "13a3ab374efe86ee49afdf50b6e4c104737d82458c60224e6efa6563fabc158d",
+  "calibration": "fixed 336-policy grid; independent calibration roles only; no test selection",
+  "controlled_clock": "common measured ASR+acoustic workers for all modalities; zero head latency for selection and common-clock test",
+  "measured_head": "selected policies are also tested with actual per-call frozen head duration; no recalibration to these test results"
+}

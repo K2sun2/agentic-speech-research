@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-01T06:31:35.012389+00:00",
+  "reason": "Secondary inherited policies include timeout=None, which means no forced timeout; guard None in respond-now implementation. No data, threshold, model or primary outcome definition changed.",
+  "old_source_sha256": "b9707ddb4af76d33977abb19646b6f92de2e0e39beba0d9fb8dec19b35956c5e",
+  "new_source_sha256": "57b95e0d268e324e86459ceb502887cffde3896243d6b70a270b0c3b15d79ff7",
+  "labels_accessed": true,
+  "primary_predictions_computed_in_memory": true,
+  "external_scores_written": false,
+  "thresholds_selected_from_external": false
+}

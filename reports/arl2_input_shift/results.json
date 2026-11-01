@@ -1,0 +1,190 @@
+{
+  "status": "descriptive_input_shift_audit_no_new_fitting",
+  "date": "2026-11-01",
+  "old_annotated_opportunities": 4837,
+  "real_vad_opportunities": 5027,
+  "real_vad_points_outside_annotated_silences": 320,
+  "wait_only_available_snapshots": 4279,
+  "fit_role_comparisons": [
+    {
+      "split": 20261031,
+      "role": "fit_only",
+      "old_observations": 2441,
+      "available_vad_observations": 2143,
+      "old_asr_audio_age_s": {
+        "n": 2441,
+        "minimum": 0.30000001192092896,
+        "median": 0.5,
+        "mean": 0.7074559654724593,
+        "p95": 1.5,
+        "maximum": 1.5
+      },
+      "new_asr_audio_age_s": {
+        "n": 2143,
+        "minimum": 0.031999999999999584,
+        "median": 0.41600000000000037,
+        "mean": 0.5366383574428372,
+        "p95": 1.2160000000000002,
+        "maximum": 1.2160000000000082
+      },
+      "old_fraction_age_lt_300ms": 0.0,
+      "new_fraction_age_lt_300ms": 0.38637424171721885,
+      "new_audio_feature_staleness_s": {
+        "n": 2143,
+        "minimum": 0.0,
+        "median": 0.03200000000000003,
+        "mean": 0.047051796546896854,
+        "p95": 0.16000000000000014,
+        "maximum": 0.2240000000000002
+      },
+      "audio_mean_shift_rms_in_old_train_std": 0.09912396383652819,
+      "prosody_mean_shift_rms_in_old_train_std": 0.10137910368650968
+    },
+    {
+      "split": 20261101,
+      "role": "fit_only",
+      "old_observations": 2365,
+      "available_vad_observations": 2016,
+      "old_asr_audio_age_s": {
+        "n": 2365,
+        "minimum": 0.30000001192092896,
+        "median": 0.5,
+        "mean": 0.695348842149053,
+        "p95": 1.5,
+        "maximum": 1.5
+      },
+      "new_asr_audio_age_s": {
+        "n": 2016,
+        "minimum": 0.031999999999999584,
+        "median": 0.41600000000000037,
+        "mean": 0.5305873015873016,
+        "p95": 1.2160000000000002,
+        "maximum": 1.2160000000000082
+      },
+      "old_fraction_age_lt_300ms": 0.0,
+      "new_fraction_age_lt_300ms": 0.39632936507936506,
+      "new_audio_feature_staleness_s": {
+        "n": 2016,
+        "minimum": 0.0,
+        "median": 0.03200000000000003,
+        "mean": 0.04841269841269839,
+        "p95": 0.16000000000000014,
+        "maximum": 0.22400000000000375
+      },
+      "audio_mean_shift_rms_in_old_train_std": 0.09055883095923326,
+      "prosody_mean_shift_rms_in_old_train_std": 0.09229891922999024
+    },
+    {
+      "split": 20261102,
+      "role": "fit_only",
+      "old_observations": 2106,
+      "available_vad_observations": 1855,
+      "old_asr_audio_age_s": {
+        "n": 2106,
+        "minimum": 0.30000001192092896,
+        "median": 0.5,
+        "mean": 0.6947768330857058,
+        "p95": 1.5,
+        "maximum": 1.5
+      },
+      "new_asr_audio_age_s": {
+        "n": 1855,
+        "minimum": 0.03199999999999914,
+        "median": 0.41600000000000037,
+        "mean": 0.524299730458221,
+        "p95": 1.2160000000000002,
+        "maximum": 1.2160000000000082
+      },
+      "old_fraction_age_lt_300ms": 0.0,
+      "new_fraction_age_lt_300ms": 0.4064690026954178,
+      "new_audio_feature_staleness_s": {
+        "n": 1855,
+        "minimum": 0.0,
+        "median": 0.03200000000000003,
+        "mean": 0.04709433962264151,
+        "p95": 0.16000000000000014,
+        "maximum": 0.22400000000000375
+      },
+      "audio_mean_shift_rms_in_old_train_std": 0.10288147243538175,
+      "prosody_mean_shift_rms_in_old_train_std": 0.09591790720765422
+    },
+    {
+      "split": 20261103,
+      "role": "fit_only",
+      "old_observations": 2454,
+      "available_vad_observations": 2196,
+      "old_asr_audio_age_s": {
+        "n": 2454,
+        "minimum": 0.30000001192092896,
+        "median": 0.5,
+        "mean": 0.6991035094228136,
+        "p95": 1.5,
+        "maximum": 1.5
+      },
+      "new_asr_audio_age_s": {
+        "n": 2196,
+        "minimum": 0.031999999999999584,
+        "median": 0.41600000000000037,
+        "mean": 0.5232349726775956,
+        "p95": 1.2160000000000002,
+        "maximum": 1.2160000000000082
+      },
+      "old_fraction_age_lt_300ms": 0.0,
+      "new_fraction_age_lt_300ms": 0.4016393442622951,
+      "new_audio_feature_staleness_s": {
+        "n": 2196,
+        "minimum": 0.0,
+        "median": 0.03200000000000003,
+        "mean": 0.046499089253187624,
+        "p95": 0.15999999999999703,
+        "maximum": 0.22400000000000375
+      },
+      "audio_mean_shift_rms_in_old_train_std": 0.1005195602270776,
+      "prosody_mean_shift_rms_in_old_train_std": 0.09437819097215264
+    },
+    {
+      "split": 20261104,
+      "role": "fit_only",
+      "old_observations": 2111,
+      "available_vad_observations": 1890,
+      "old_asr_audio_age_s": {
+        "n": 2111,
+        "minimum": 0.30000001192092896,
+        "median": 0.5,
+        "mean": 0.7039791616654859,
+        "p95": 1.5,
+        "maximum": 1.5
+      },
+      "new_asr_audio_age_s": {
+        "n": 1890,
+        "minimum": 0.031999999999999584,
+        "median": 0.41600000000000037,
+        "mean": 0.5174518518518518,
+        "p95": 1.2160000000000002,
+        "maximum": 1.216000000000001
+      },
+      "old_fraction_age_lt_300ms": 0.0,
+      "new_fraction_age_lt_300ms": 0.41534391534391535,
+      "new_audio_feature_staleness_s": {
+        "n": 1890,
+        "minimum": 0.0,
+        "median": 0.03200000000000003,
+        "mean": 0.047136507936507935,
+        "p95": 0.16000000000000014,
+        "maximum": 0.2240000000000002
+      },
+      "audio_mean_shift_rms_in_old_train_std": 0.10922811974494591,
+      "prosody_mean_shift_rms_in_old_train_std": 0.11253156751609573
+    }
+  ],
+  "source_sha256": "2819645260329895d7a39fd956db5457e227a04fb701156442b055efd6a90f9e",
+  "manual_annotation": false,
+  "training": false,
+  "all_old_models_and_scalers_unchanged": true,
+  "limitations": [
+    "Outside annotated pauses is not independently verified speech or an annotation error.",
+    "Shift statistics use fit roles only; they do not establish the cause of test errors.",
+    "Wait-only snapshots use measured-service replay and a zero-cost placeholder head, not a live streaming service.",
+    "Input changes include opportunity timing, text prefix and feature staleness; no single cause is isolated."
+  ]
+}

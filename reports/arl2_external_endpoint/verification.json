@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "clips": 512,
+  "old_heads_unchanged": 45,
+  "scalers_unchanged": 5,
+  "selection_matches_label_free_rank": true,
+  "provided_label_classes": [
+    0,
+    1
+  ],
+  "audio_and_asr_prefix_hash_checks": 512,
+  "no_external_training": true,
+  "preregistration_sha256": "7201adb5db5932166228a80e3f9cb8f04af7d4a7c42a28f24c527a87f57cc567",
+  "protocol_sha256": "64d4a32830fe3aaa374ba373c4e3e84fd414fdda91564345e5968efbfbd29eb7"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-01T06:29:00.324746+00:00",
+  "reason": "Official metadata uses ISO639-3 eng for English. Original selector accepted only en/english/en-us/en-gb and selected no rows. Add equivalent eng code; English/non-synthetic scientific eligibility and fixed rank unchanged.",
+  "prior_source_sha256": "df46759b9a99c870832816fd01c8ac59e387f3712816d1e7be6dc9fbcfff06e8",
+  "amended_source_sha256": "84e1b49a0fd0ba0c39b66d3717ddf84be71edb27ff02460bc05ff6007af36fe2",
+  "labels_read": false,
+  "scores_read": false,
+  "heads_or_scalers_changed": false
+}

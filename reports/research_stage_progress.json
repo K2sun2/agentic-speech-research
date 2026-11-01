@@ -3,7 +3,7 @@
   "overall": "feasibility_and_supervised_baseline_evaluation",
   "rl_started": false,
   "manual_annotation_required": false,
-  "latest_report": "reports/arl2_vad_controller/README.md",
+  "latest_report": "reports/arl2_available_sft/README.md",
   "topics": [
     {
       "id": "ARL-1",
@@ -15,11 +15,30 @@
     {
       "id": "ARL-2",
       "stage": "Stage 1 evaluation",
-      "status": "SFT heads and real-VAD availability replay complete; risk gate failed",
-      "completed": "modality ablations, frozen heads, causal replay, real VAD, 5027 windows, 1409 timed ASR requests",
-      "missing": "independent matched-risk/coverage evaluation and actual stateful streaming runtime",
-      "measured_text_audio_cutoff": 0.1851851851851852,
-      "measured_text_audio_miss": 0.008230452674897118
+      "status": "availability-matched SFT failed to reduce cutoff; external static audio signal confirmed on convenience subset",
+      "completed": "modality ablations, frozen heads, causal replay, real VAD, 5027 windows, 1409 timed ASR requests; fit-only input audit; 45 availability-matched heads; controlled old/new recalibration; 972 episode checks; 512 external static Smart Turn clips / 45 original frozen heads",
+      "missing": "independent continuous full-turn matched-risk/coverage evaluation and actual stateful streaming runtime",
+      "historical_inherited_policy": {
+        "cutoff": 0.1851851851851852,
+        "miss": 0.008230452674897118,
+        "report": "reports/arl2_vad_controller/README.md"
+      },
+      "latest_controlled_text_audio": {
+        "old_cutoff": 0.21810699588477367,
+        "matched_cutoff": 0.22633744855967075,
+        "old_delay_s": 0.5328874155344643,
+        "matched_delay_s": 0.5102555958536414,
+        "eligible_runs": 3,
+        "total_runs": 15,
+        "same_test_turns": 81,
+        "split": 20261104,
+        "independent_confirmation": false
+      },
+      "external_static_auroc": {
+        "text": 0.5964554051510572,
+        "text_audio": 0.7862606253910602,
+        "text_audio_prosody": 0.7848856196682283
+      }
     },
     {
       "id": "ARL-5",
@@ -37,5 +56,7 @@
       "stage": "engineering exploration",
       "status": "formal AR/DLM × revision 2×2 experiment not completed"
     }
-  ]
+  ],
+  "external_endpoint_status": "512_static_clips_45_frozen_heads_complete_no_full_turn_metrics",
+  "external_report": "reports/arl2_external_endpoint/README.md"
 }

@@ -1,0 +1,14 @@
+{
+  "status": "download_verified_external_static_test_complete",
+  "repository": "pipecat-ai/smart-turn-data-v3.1-test",
+  "revision": "22b4ec796d222da74beac14245603fba7653ac3f",
+  "test_audio_downloaded": true,
+  "selected_clips": 512,
+  "models_evaluated": 45,
+  "external_scores": "reports/arl2_external_endpoint/results.json",
+  "official_shard_bytes": 481161775,
+  "full_turn_metrics": null,
+  "manual_annotation_required": false,
+  "rl_started": false,
+  "transport_recovered": true
+}

@@ -1,0 +1,25 @@
+{
+  "status": "internal_controlled_sft_complete",
+  "date": "2026-11-01",
+  "new_heads": 45,
+  "wait_only_available_snapshots": 4279,
+  "tests": {
+    "passed": 55,
+    "warnings": 1,
+    "scope": "full experiment test suite; not research success"
+  },
+  "compiled_episode_checks": 972,
+  "old_heads_and_scalers_unchanged": true,
+  "risk_latency_improvement_demonstrated": false,
+  "manual_annotation_required": false,
+  "rl_started": false,
+  "independent_external_scores": null,
+  "actual_live_streaming": false,
+  "report": "reports/arl2_available_sft/README.md",
+  "sources": {
+    "reports/arl2_available_sft/results.json": "9a95bb09308b33fd9da26847cdc54b1ee9eaff8f8ba4829f0732914f59f633e0",
+    "reports/arl2_available_sft/verification.json": "75cc2f5e3edcb85f030cfe693e82943288c553681fd82551fc0ddb2561d82738",
+    "reports/arl2_input_shift/results.json": "b6518922ccd35755a55da011d36a0ece06833c05af2d9962aa1da8cce0a9ec01",
+    "reports/arl2_external_endpoint/download_status.json": "5ef94d6799866ed7cebbc91a7d440313c777e23238c4fea6a38760477a5d726a"
+  }
+}

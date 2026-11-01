@@ -1,0 +1,1700 @@
+{
+  "status": "available_observation_sft_internal_comparison_complete",
+  "date": "2026-11-01",
+  "new_heads": 45,
+  "records": [
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "old",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261031,
+      "family": "matched",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "old",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261101,
+      "family": "matched",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "old",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261102,
+      "family": "matched",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "old",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261103,
+      "family": "matched",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.025974025974025976,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.974025974025974,
+          "conditional_delay_s": 0.5551133978972832,
+          "failure_penalized_delay_s": 0.5796559070428083
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.20987654320987653,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7901234567901234,
+        "conditional_delay_s": 0.5345453696520999,
+        "failure_penalized_delay_s": 0.7371716500954862
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.20987654320987653,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7901234567901234,
+        "conditional_delay_s": 0.5348883233112283,
+        "conditional_delay_p95_s": 0.7798171747718008,
+        "failure_penalized_delay_s": 0.7374426258261556,
+        "model_responses": 73,
+        "timeout_responses": 8,
+        "mean_asr_requests": 2.654320987654321,
+        "mean_asr_compute_s": 0.3795713661008595,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.8765432098765435,
+        "mean_features_compute_s": 0.28745140936685565,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.053315741228468626,
+        "mean_head_compute_s": 0.005110460528988897,
+        "mean_head_calls": 4.987654320987654
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5428640833258427,
+          "failure_penalized_delay_s": 0.5801550930663942
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.531842006005938,
+        "failure_penalized_delay_s": 0.7469882268935073
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5321989794800441,
+        "conditional_delay_p95_s": 0.7771858723543585,
+        "failure_penalized_delay_s": 0.7472658729289232,
+        "model_responses": 74,
+        "timeout_responses": 7,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37570264654946917,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.827160493827161,
+        "mean_features_compute_s": 0.2848192056020101,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05310685824556851,
+        "mean_head_compute_s": 0.004990076105811714,
+        "mean_head_calls": 4.950617283950617
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.025974025974025976,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.974025974025974,
+          "conditional_delay_s": 0.5508602231406171,
+          "failure_penalized_delay_s": 0.575513204357744
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5312312754784073,
+        "failure_penalized_delay_s": 0.7465132142609835
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5315749438121203,
+        "conditional_delay_p95_s": 0.7762633658654989,
+        "failure_penalized_delay_s": 0.7467805118538714,
+        "model_responses": 73,
+        "timeout_responses": 8,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37570264654946917,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.814814814814815,
+        "mean_features_compute_s": 0.2840910801939942,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05311373799441405,
+        "mean_head_compute_s": 0.004984274322603956,
+        "mean_head_calls": 4.938271604938271
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.025974025974025976,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.974025974025974,
+          "conditional_delay_s": 0.5515625190524259,
+          "failure_penalized_delay_s": 0.576197258817298
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5280866353398276,
+        "failure_penalized_delay_s": 0.7440673830420882
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5285096636953807,
+        "conditional_delay_p95_s": 0.7506235961943862,
+        "failure_penalized_delay_s": 0.7443964050964073,
+        "model_responses": 73,
+        "timeout_responses": 8,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37570264654946917,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.790123456790123,
+        "mean_features_compute_s": 0.282982003380671,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05309811473628621,
+        "mean_head_compute_s": 0.006021308954115267,
+        "mean_head_calls": 4.91358024691358
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5493828492719377,
+          "failure_penalized_delay_s": 0.5864198811184856
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5314688062262203,
+        "failure_penalized_delay_s": 0.7466979603981713
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.531827782886487,
+        "conditional_delay_p95_s": 0.776420223311335,
+        "failure_penalized_delay_s": 0.7469771644672677,
+        "model_responses": 73,
+        "timeout_responses": 8,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37570264654946917,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.814814814814815,
+        "mean_features_compute_s": 0.28427582633118204,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05311284214258194,
+        "mean_head_compute_s": 0.005122107154701227,
+        "mean_head_calls": 4.938271604938271
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "old",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.75,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5421059143161652,
+          "failure_penalized_delay_s": 0.5794264631090418
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.20987654320987653,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7901234567901234,
+        "conditional_delay_s": 0.5386952407384523,
+        "failure_penalized_delay_s": 0.7404505605834685
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.20987654320987653,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7901234567901234,
+        "conditional_delay_s": 0.5389932194625725,
+        "conditional_delay_p95_s": 0.9020206296648822,
+        "failure_penalized_delay_s": 0.7406860005630203,
+        "model_responses": 72,
+        "timeout_responses": 9,
+        "mean_asr_requests": 2.654320987654321,
+        "mean_asr_compute_s": 0.3795713661008595,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.901234567901234,
+        "mean_features_compute_s": 0.28876821521991564,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.053340505302688225,
+        "mean_head_compute_s": 0.004196661685443955,
+        "mean_head_calls": 5.012345679012346
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_11",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_22",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_33",
+      "modality": "text",
+      "status": "no_feasible_policy",
+      "calibration": null
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_11",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.55,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5174008528109941,
+          "failure_penalized_delay_s": 0.5556839364677086
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5056055453279085,
+        "failure_penalized_delay_s": 0.7388585655596337
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5057000335009106,
+        "conditional_delay_p95_s": 0.7183245071075851,
+        "failure_penalized_delay_s": 0.7389308898402033,
+        "model_responses": 78,
+        "timeout_responses": 3,
+        "mean_asr_requests": 2.6049382716049383,
+        "mean_asr_compute_s": 0.37276651035350417,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.444444444444445,
+        "mean_features_compute_s": 0.265339403482223,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.0525901212391478,
+        "mean_head_compute_s": 0.003106604019800822,
+        "mean_head_calls": 4.580246913580247
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_22",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.6000000000000001,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5255076571147183,
+          "failure_penalized_delay_s": 0.5634748912531059
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.51276236321103,
+        "failure_penalized_delay_s": 0.7321485047196901
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.51291807001226,
+        "conditional_delay_p95_s": 0.7335915337882933,
+        "failure_penalized_delay_s": 0.7322696100095356,
+        "model_responses": 76,
+        "timeout_responses": 5,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37663522990489445,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.580246913580247,
+        "mean_features_compute_s": 0.2723151429406839,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05281517332718696,
+        "mean_head_compute_s": 0.0032651687247885596,
+        "mean_head_calls": 4.703703703703703
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_33",
+      "modality": "text_audio",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.6000000000000001,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5249012296924719,
+          "failure_penalized_delay_s": 0.5628920908732846
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5120088655505151,
+        "failure_penalized_delay_s": 0.7315624509837341
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2222222222222222,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7777777777777778,
+        "conditional_delay_s": 0.5121486840477537,
+        "conditional_delay_p95_s": 0.7336088240712878,
+        "failure_penalized_delay_s": 0.7316711987038086,
+        "model_responses": 77,
+        "timeout_responses": 4,
+        "mean_asr_requests": 2.6296296296296298,
+        "mean_asr_compute_s": 0.37663522990489445,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.567901234567901,
+        "mean_features_compute_s": 0.2717290892047279,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05280178003473046,
+        "mean_head_compute_s": 0.003127035696381404,
+        "mean_head_calls": 4.691358024691358
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.55,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5152061472029702,
+          "failure_penalized_delay_s": 0.5535747388703869
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5047548350911707,
+        "failure_penalized_delay_s": 0.7382074046376862
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5048594483778841,
+        "conditional_delay_p95_s": 0.718433594457432,
+        "failure_penalized_delay_s": 0.738287479005294,
+        "model_responses": 77,
+        "timeout_responses": 4,
+        "mean_asr_requests": 2.6049382716049383,
+        "mean_asr_compute_s": 0.37276651035350417,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.419753086419753,
+        "mean_features_compute_s": 0.2643740280979761,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05258332760889589,
+        "mean_head_compute_s": 0.003694049163181105,
+        "mean_head_calls": 4.555555555555555
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.55,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5166459173454424,
+          "failure_penalized_delay_s": 0.5549584140722434
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5056055453279085,
+        "failure_penalized_delay_s": 0.7388585655596337
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5057225520846342,
+        "conditional_delay_p95_s": 0.7184173734258854,
+        "failure_penalized_delay_s": 0.738948126287004,
+        "model_responses": 78,
+        "timeout_responses": 3,
+        "mean_asr_requests": 2.6049382716049383,
+        "mean_asr_compute_s": 0.37276651035350417,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.432098765432099,
+        "mean_features_compute_s": 0.26525792596792735,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.05256276379948781,
+        "mean_head_compute_s": 0.0036934436885295093,
+        "mean_head_calls": 4.567901234567901
+      }
+    },
+    {
+      "split": 20261104,
+      "family": "matched",
+      "name": "text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "selected",
+      "calibration": {
+        "threshold": 0.55,
+        "minimum": 0.5,
+        "timeout": 1.1,
+        "metrics": {
+          "turns": 77,
+          "cutoff_rate": 0.03896103896103896,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.961038961038961,
+          "conditional_delay_s": 0.5166886719358531,
+          "failure_penalized_delay_s": 0.5549995028993913
+        }
+      },
+      "common_clock_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5031905316149274,
+        "failure_penalized_delay_s": 0.7370100365447593
+      },
+      "actual_head_test": {
+        "turns": 81,
+        "cutoff_rate": 0.2345679012345679,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.7654320987654321,
+        "conditional_delay_s": 0.5033175974966536,
+        "conditional_delay_p95_s": 0.6700186539947959,
+        "failure_penalized_delay_s": 0.7371072968492905,
+        "model_responses": 77,
+        "timeout_responses": 4,
+        "mean_asr_requests": 2.6049382716049383,
+        "mean_asr_compute_s": 0.37276651035350417,
+        "mean_asr_residual_s": 0.0,
+        "mean_asr_queue_s": 0.0,
+        "mean_features_requests": 5.444444444444445,
+        "mean_features_compute_s": 0.2655459549507977,
+        "mean_features_residual_s": 0.0,
+        "mean_features_queue_s": 0.0,
+        "mean_vad_compute_s": 0.052582247757617336,
+        "mean_head_compute_s": 0.0036968826258808006,
+        "mean_head_calls": 4.580246913580247
+      }
+    }
+  ],
+  "summary": {
+    "text": {
+      "old": {
+        "total_runs": 15,
+        "selected_runs": 0,
+        "eligible_splits": [],
+        "test_cutoff_violations": 0,
+        "test_miss_violations": 0,
+        "means": null
+      },
+      "matched": {
+        "total_runs": 15,
+        "selected_runs": 0,
+        "eligible_splits": [],
+        "test_cutoff_violations": 0,
+        "test_miss_violations": 0,
+        "means": null
+      },
+      "paired": {
+        "runs": 0,
+        "pairs": []
+      }
+    },
+    "text_audio": {
+      "old": {
+        "total_runs": 15,
+        "selected_runs": 3,
+        "eligible_splits": [
+          20261104
+        ],
+        "test_cutoff_violations": 3,
+        "test_miss_violations": 0,
+        "means": {
+          "turns": 81.0,
+          "cutoff_rate": 0.21810699588477367,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7818930041152262,
+          "conditional_delay_s": 0.5328874155344643,
+          "conditional_delay_p95_s": 0.7777554709972194,
+          "failure_penalized_delay_s": 0.7438296702029835,
+          "model_responses": 73.33333333333333,
+          "timeout_responses": 7.666666666666667,
+          "mean_asr_requests": 2.637860082304527,
+          "mean_asr_compute_s": 0.37699221973326597,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 5.839506172839506,
+          "mean_features_compute_s": 0.28545389838762,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0531787791561504,
+          "mean_head_compute_s": 0.005028270319134856,
+          "mean_head_calls": 4.958847736625515
+        }
+      },
+      "matched": {
+        "total_runs": 15,
+        "selected_runs": 3,
+        "eligible_splits": [
+          20261104
+        ],
+        "test_cutoff_violations": 3,
+        "test_miss_violations": 0,
+        "means": {
+          "turns": 81.0,
+          "cutoff_rate": 0.22633744855967075,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7736625514403292,
+          "conditional_delay_s": 0.5102555958536414,
+          "conditional_delay_p95_s": 0.7285082883223888,
+          "failure_penalized_delay_s": 0.7342905661845158,
+          "model_responses": 77.0,
+          "timeout_responses": 4.0,
+          "mean_asr_requests": 2.6213991769547325,
+          "mean_asr_compute_s": 0.3753456567210977,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 5.530864197530864,
+          "mean_features_compute_s": 0.2697945452092116,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05273569153368841,
+          "mean_head_compute_s": 0.003166269480323595,
+          "mean_head_calls": 4.658436213991769
+        }
+      },
+      "paired": {
+        "runs": 3,
+        "pairs": [
+          {
+            "split": 20261104,
+            "name": "text_audio_11",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.20987654320987653,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7901234567901234,
+              "conditional_delay_s": 0.5348883233112283,
+              "conditional_delay_p95_s": 0.7798171747718008,
+              "failure_penalized_delay_s": 0.7374426258261556,
+              "model_responses": 73,
+              "timeout_responses": 8,
+              "mean_asr_requests": 2.654320987654321,
+              "mean_asr_compute_s": 0.3795713661008595,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.8765432098765435,
+              "mean_features_compute_s": 0.28745140936685565,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.053315741228468626,
+              "mean_head_compute_s": 0.005110460528988897,
+              "mean_head_calls": 4.987654320987654
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2345679012345679,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7654320987654321,
+              "conditional_delay_s": 0.5057000335009106,
+              "conditional_delay_p95_s": 0.7183245071075851,
+              "failure_penalized_delay_s": 0.7389308898402033,
+              "model_responses": 78,
+              "timeout_responses": 3,
+              "mean_asr_requests": 2.6049382716049383,
+              "mean_asr_compute_s": 0.37276651035350417,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.444444444444445,
+              "mean_features_compute_s": 0.265339403482223,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.0525901212391478,
+              "mean_head_compute_s": 0.003106604019800822,
+              "mean_head_calls": 4.580246913580247
+            }
+          },
+          {
+            "split": 20261104,
+            "name": "text_audio_22",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.5321989794800441,
+              "conditional_delay_p95_s": 0.7771858723543585,
+              "failure_penalized_delay_s": 0.7472658729289232,
+              "model_responses": 74,
+              "timeout_responses": 7,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37570264654946917,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.827160493827161,
+              "mean_features_compute_s": 0.2848192056020101,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05310685824556851,
+              "mean_head_compute_s": 0.004990076105811714,
+              "mean_head_calls": 4.950617283950617
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.51291807001226,
+              "conditional_delay_p95_s": 0.7335915337882933,
+              "failure_penalized_delay_s": 0.7322696100095356,
+              "model_responses": 76,
+              "timeout_responses": 5,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37663522990489445,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.580246913580247,
+              "mean_features_compute_s": 0.2723151429406839,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05281517332718696,
+              "mean_head_compute_s": 0.0032651687247885596,
+              "mean_head_calls": 4.703703703703703
+            }
+          },
+          {
+            "split": 20261104,
+            "name": "text_audio_33",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.5315749438121203,
+              "conditional_delay_p95_s": 0.7762633658654989,
+              "failure_penalized_delay_s": 0.7467805118538714,
+              "model_responses": 73,
+              "timeout_responses": 8,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37570264654946917,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.814814814814815,
+              "mean_features_compute_s": 0.2840910801939942,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05311373799441405,
+              "mean_head_compute_s": 0.004984274322603956,
+              "mean_head_calls": 4.938271604938271
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.5121486840477537,
+              "conditional_delay_p95_s": 0.7336088240712878,
+              "failure_penalized_delay_s": 0.7316711987038086,
+              "model_responses": 77,
+              "timeout_responses": 4,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37663522990489445,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.567901234567901,
+              "mean_features_compute_s": 0.2717290892047279,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05280178003473046,
+              "mean_head_compute_s": 0.003127035696381404,
+              "mean_head_calls": 4.691358024691358
+            }
+          }
+        ]
+      }
+    },
+    "text_audio_prosody": {
+      "old": {
+        "total_runs": 15,
+        "selected_runs": 3,
+        "eligible_splits": [
+          20261104
+        ],
+        "test_cutoff_violations": 3,
+        "test_miss_violations": 0,
+        "means": {
+          "turns": 81.0,
+          "cutoff_rate": 0.21810699588477367,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7818930041152262,
+          "conditional_delay_s": 0.5331102220148134,
+          "conditional_delay_p95_s": 0.8096881497235344,
+          "failure_penalized_delay_s": 0.7440198567088984,
+          "model_responses": 72.66666666666667,
+          "timeout_responses": 8.333333333333334,
+          "mean_asr_requests": 2.637860082304527,
+          "mean_asr_compute_s": 0.37699221973326597,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 5.835390946502057,
+          "mean_features_compute_s": 0.28534201497725625,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05318382072718545,
+          "mean_head_compute_s": 0.0051133592647534835,
+          "mean_head_calls": 4.954732510288065
+        }
+      },
+      "matched": {
+        "total_runs": 15,
+        "selected_runs": 3,
+        "eligible_splits": [
+          20261104
+        ],
+        "test_cutoff_violations": 3,
+        "test_miss_violations": 0,
+        "means": {
+          "turns": 81.0,
+          "cutoff_rate": 0.23456790123456792,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7654320987654321,
+          "conditional_delay_s": 0.504633199319724,
+          "conditional_delay_p95_s": 0.702289873959371,
+          "failure_penalized_delay_s": 0.7381143007138627,
+          "model_responses": 77.33333333333333,
+          "timeout_responses": 3.6666666666666665,
+          "mean_asr_requests": 2.6049382716049383,
+          "mean_asr_compute_s": 0.3727665103535041,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 5.432098765432099,
+          "mean_features_compute_s": 0.26505930300556707,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05257611305533368,
+          "mean_head_compute_s": 0.003694791825863805,
+          "mean_head_calls": 4.567901234567901
+        }
+      },
+      "paired": {
+        "runs": 3,
+        "pairs": [
+          {
+            "split": 20261104,
+            "name": "text_audio_prosody_11",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.5285096636953807,
+              "conditional_delay_p95_s": 0.7506235961943862,
+              "failure_penalized_delay_s": 0.7443964050964073,
+              "model_responses": 73,
+              "timeout_responses": 8,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37570264654946917,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.790123456790123,
+              "mean_features_compute_s": 0.282982003380671,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05309811473628621,
+              "mean_head_compute_s": 0.006021308954115267,
+              "mean_head_calls": 4.91358024691358
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2345679012345679,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7654320987654321,
+              "conditional_delay_s": 0.5048594483778841,
+              "conditional_delay_p95_s": 0.718433594457432,
+              "failure_penalized_delay_s": 0.738287479005294,
+              "model_responses": 77,
+              "timeout_responses": 4,
+              "mean_asr_requests": 2.6049382716049383,
+              "mean_asr_compute_s": 0.37276651035350417,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.419753086419753,
+              "mean_features_compute_s": 0.2643740280979761,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05258332760889589,
+              "mean_head_compute_s": 0.003694049163181105,
+              "mean_head_calls": 4.555555555555555
+            }
+          },
+          {
+            "split": 20261104,
+            "name": "text_audio_prosody_22",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.2222222222222222,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7777777777777778,
+              "conditional_delay_s": 0.531827782886487,
+              "conditional_delay_p95_s": 0.776420223311335,
+              "failure_penalized_delay_s": 0.7469771644672677,
+              "model_responses": 73,
+              "timeout_responses": 8,
+              "mean_asr_requests": 2.6296296296296298,
+              "mean_asr_compute_s": 0.37570264654946917,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.814814814814815,
+              "mean_features_compute_s": 0.28427582633118204,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05311284214258194,
+              "mean_head_compute_s": 0.005122107154701227,
+              "mean_head_calls": 4.938271604938271
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2345679012345679,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7654320987654321,
+              "conditional_delay_s": 0.5057225520846342,
+              "conditional_delay_p95_s": 0.7184173734258854,
+              "failure_penalized_delay_s": 0.738948126287004,
+              "model_responses": 78,
+              "timeout_responses": 3,
+              "mean_asr_requests": 2.6049382716049383,
+              "mean_asr_compute_s": 0.37276651035350417,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.432098765432099,
+              "mean_features_compute_s": 0.26525792596792735,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.05256276379948781,
+              "mean_head_compute_s": 0.0036934436885295093,
+              "mean_head_calls": 4.567901234567901
+            }
+          },
+          {
+            "split": 20261104,
+            "name": "text_audio_prosody_33",
+            "old": {
+              "turns": 81,
+              "cutoff_rate": 0.20987654320987653,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7901234567901234,
+              "conditional_delay_s": 0.5389932194625725,
+              "conditional_delay_p95_s": 0.9020206296648822,
+              "failure_penalized_delay_s": 0.7406860005630203,
+              "model_responses": 72,
+              "timeout_responses": 9,
+              "mean_asr_requests": 2.654320987654321,
+              "mean_asr_compute_s": 0.3795713661008595,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.901234567901234,
+              "mean_features_compute_s": 0.28876821521991564,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.053340505302688225,
+              "mean_head_compute_s": 0.004196661685443955,
+              "mean_head_calls": 5.012345679012346
+            },
+            "matched": {
+              "turns": 81,
+              "cutoff_rate": 0.2345679012345679,
+              "no_response_rate": 0.0,
+              "valid_response_rate": 0.7654320987654321,
+              "conditional_delay_s": 0.5033175974966536,
+              "conditional_delay_p95_s": 0.6700186539947959,
+              "failure_penalized_delay_s": 0.7371072968492905,
+              "model_responses": 77,
+              "timeout_responses": 4,
+              "mean_asr_requests": 2.6049382716049383,
+              "mean_asr_compute_s": 0.37276651035350417,
+              "mean_asr_residual_s": 0.0,
+              "mean_asr_queue_s": 0.0,
+              "mean_features_requests": 5.444444444444445,
+              "mean_features_compute_s": 0.2655459549507977,
+              "mean_features_residual_s": 0.0,
+              "mean_features_queue_s": 0.0,
+              "mean_vad_compute_s": 0.052582247757617336,
+              "mean_head_compute_s": 0.0036968826258808006,
+              "mean_head_calls": 4.580246913580247
+            }
+          }
+        ]
+      }
+    }
+  },
+  "compiled_episode_checks": 972,
+  "protocol": {
+    "training_protocol_sha256": "6d0b052a9b791236e426ca1485aa93c0ad42368cc1fe4f7668edd58d5c84c732",
+    "source_sha256": "13a3ab374efe86ee49afdf50b6e4c104737d82458c60224e6efa6563fabc158d",
+    "calibration": "fixed 336-policy grid; independent calibration roles only; no test selection",
+    "controlled_clock": "common measured ASR+acoustic workers for all modalities; zero head latency for selection and common-clock test",
+    "measured_head": "selected policies are also tested with actual per-call frozen head duration; no recalibration to these test results"
+  },
+  "manual_annotation": false,
+  "rl": false,
+  "independent_external_scores": null,
+  "limitations": [
+    "Same previously inspected corpus and overlapping conversation splits; exploratory only.",
+    "Old and new heads both recalibrate on the same calibration roles; comparisons to prior inherited-policy numbers are not causal.",
+    "All modalities share acoustic service timing; this is an information/exposure control, not optimized text-only deployment.",
+    "Policy availability and matched pairs must be reported; means of different eligible runs are not a matched comparison.",
+    "Actual head durations are measured in cached-service replay, not live stateful ASR.",
+    "External Smart Turn audio could not be downloaded during persistent TLS timeouts; no external scores are reported."
+  ]
+}

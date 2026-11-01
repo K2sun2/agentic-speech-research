@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "new_heads": 45,
+  "old_45_heads_and_scalers_unchanged": true,
+  "roles_and_scalers": [
+    {
+      "split": 20261031,
+      "fit_only_scaling": true,
+      "conversation_roles_disjoint": true,
+      "new_heads": 9
+    },
+    {
+      "split": 20261101,
+      "fit_only_scaling": true,
+      "conversation_roles_disjoint": true,
+      "new_heads": 9
+    },
+    {
+      "split": 20261102,
+      "fit_only_scaling": true,
+      "conversation_roles_disjoint": true,
+      "new_heads": 9
+    },
+    {
+      "split": 20261103,
+      "fit_only_scaling": true,
+      "conversation_roles_disjoint": true,
+      "new_heads": 9
+    },
+    {
+      "split": 20261104,
+      "fit_only_scaling": true,
+      "conversation_roles_disjoint": true,
+      "new_heads": 9
+    }
+  ],
+  "compiled_episode_checks": 972,
+  "calibration_only_policy_selection": true,
+  "training_protocol_sha256": "6d0b052a9b791236e426ca1485aa93c0ad42368cc1fe4f7668edd58d5c84c732",
+  "traces_sha256": "426464290b1fb2c340e111e2d2762a236b5021d2efbb072646ef2f4d2f0a5bfa"
+}

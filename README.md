@@ -9,9 +9,15 @@ existing endpoint labels, real VAD and ASR/runtime measurements. Unlabelled exte
 desired-action accuracy remains unassessed. No completed RL or verified
 emotion-aware interaction benefit is claimed.
 
-Latest: frozen supervised controllers are connected to actual VAD opportunities.
-5,027 acoustic windows and 1,409 single-request ASR timings are complete. The
-measured-service queue replay remains offline and has not passed the cutoff gate.
+Latest: 45 availability-matched lightweight SFT heads trained and verified.
+At the same service clock and recalibration protocol, Text+WavLM cutoff increased
+from 21.81% to 22.63%; conditional delay decreased from 532.9ms to 510.3ms.
+No risk/latency improvement is demonstrated. The three eligible seeds reuse the
+same 81 test turns. An external fixed-model static endpoint test is also complete
+on 512 English non-synthetic Smart Turn clips; this does not establish full-turn
+cutoff/latency or live interaction. Full experiment suite: 56 passed.
+See [SFT comparison](reports/arl2_available_sft/README.md).
+External test: [static clip classification](reports/arl2_external_endpoint/README.md).
 
 Current route: [configs/automatic_route.json](configs/automatic_route.json).
 

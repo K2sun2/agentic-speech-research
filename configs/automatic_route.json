@@ -5,17 +5,16 @@
   "basis": "User instruction: 跳过人工标注",
   "manual_annotation_required": false,
   "generated_labels_count_as_human": false,
-  "active_focus": "automatic_endpointing_evaluation_and_causal_runtime",
+  "active_focus": "internal_sft_negative_result_and_external_static_endpoint_validation",
   "ground_truth": {
     "existing_eot_bench": "Reuse existing annotated endpoints and fixed conversation roles for cutoff, missed-response and delay evaluation.",
     "external_seamless_pilot": "Audio alignment, prefix consistency, compute and scheduling probes only; desired Wait/Respond actions remain unlabelled.",
-    "independent_benchmark": "Use an accessible benchmark with existing endpoint labels; official TurnBench audio remains access-restricted."
+    "independent_benchmark": "512 fixed English non-synthetic clips from the official Smart Turn v3.1 test repository; static endpoint labels only, not full-turn trajectories."
   },
   "next_steps": [
-    "Use an accessible independent endpoint benchmark with existing labels; do not request new manual annotation.",
-    "Check actual-VAD input distribution and supervised training on fit/stop roles; keep reused-data results exploratory.",
-    "Add stateful streaming ASR and an actual audio runtime benchmark beyond measured-cost replay.",
-    "Compare rules, SFT and then PPO at matched risk and coverage once the evaluation is reliable."
+    "Obtain an existing-label external benchmark with continuous full-turn timing; static clip labels do not establish cutoff/latency.",
+    "Add stateful streaming ASR and actual audio runtime beyond measured-cost replay.",
+    "Preserve the internal SFT negative result and frozen external test scores; require matched-risk/coverage evidence before PPO."
   ],
   "evaluation_metrics": [
     "turn_level_premature_response_rate",
@@ -31,9 +30,23 @@
     "Claims that score sensitivity establishes emotion-aware correct actions."
   ],
   "historical_results_changed": false,
-  "new_training_run_started_by_this_decision": false,
+  "new_training_run_started_by_this_decision": true,
   "completed_latest": [
-    "Frozen supervised heads connected to real-VAD opportunities.",
-    "Single-request prefix ASR and acoustic costs measured; worker availability and queues replayed."
-  ]
+    "Fit-only input distribution audit and 4,279 available wait-only observations.",
+    "45 availability-matched SFT heads trained; old heads/scalers unchanged.",
+    "Old/new heads recalibrated at a common service clock; no cutoff improvement.",
+    "972 event equivalence checks; full suite 56 passed.",
+    "Official Smart Turn shard downloaded and SHA256 verified; 512 preselected clips, 45 original frozen heads evaluated without fitting/calibration.",
+    "External AUROC Text .5965, Audio .7863, Prosody .7849; static clip classification only."
+  ],
+  "new_lightweight_sft_heads": 45,
+  "rl_started": false,
+  "latest_external_test": {
+    "clips": 512,
+    "heads": 45,
+    "static_only": true,
+    "full_turn_metrics": null,
+    "source": "pipecat-ai/smart-turn-data-v3.1-test",
+    "external_training": false
+  }
 }

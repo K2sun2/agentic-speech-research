@@ -1,0 +1,30 @@
+{
+  "status": "static_external_endpoint_test_complete_full_turn_validation_pending",
+  "date": "2026-11-01",
+  "clips": 512,
+  "frozen_heads": 45,
+  "verification": {
+    "passed": true,
+    "clips": 512,
+    "old_heads_unchanged": 45,
+    "scalers_unchanged": 5,
+    "selection_matches_label_free_rank": true,
+    "provided_label_classes": [
+      0,
+      1
+    ],
+    "audio_and_asr_prefix_hash_checks": 512,
+    "no_external_training": true,
+    "preregistration_sha256": "7201adb5db5932166228a80e3f9cb8f04af7d4a7c42a28f24c527a87f57cc567",
+    "protocol_sha256": "64d4a32830fe3aaa374ba373c4e3e84fd414fdda91564345e5968efbfbd29eb7"
+  },
+  "full_turn_metrics": null,
+  "rl_started": false,
+  "manual_annotation_required": false,
+  "tests": {
+    "passed": 56,
+    "warnings": 1
+  },
+  "report": "reports/arl2_external_endpoint/README.md",
+  "results_sha256": "7a6830894db316a888830de3787a7b7767ae0d5557093c4179f4decce0c69ac7"
+}
