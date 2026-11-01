@@ -1,14 +1,19 @@
 # Speech Agent Research
 
 Chinese research page for Agentic RL × Speech Agent: five research directions,
-verified experiment progress, interactive risk/latency figures, and action annotation.
+verified experiment progress, interactive risk/latency figures, and read-only audio playback.
 
-Snapshot: 2026-10-31. No completed RL or verified emotion-aware interaction benefit
-is claimed. Missing human action labels remain missing.
+Route updated: 2026-11-01. Experiment snapshot: 2026-10-31.
+New manual annotation is skipped at the user's request. Automatic evaluation uses
+existing endpoint labels, real VAD and ASR/runtime measurements. Unlabelled external
+desired-action accuracy remains unassessed. No completed RL or verified
+emotion-aware interaction benefit is claimed.
+
+Current route: [configs/automatic_route.json](configs/automatic_route.json).
 
 ## Audio attribution
 
-The 64 five-second annotation excerpts are derived from **Meta / FAIR Seamless
+The 64 five-second audio excerpts are derived from **Meta / FAIR Seamless
 Interaction**, Naturalistic / Dev, under **CC-BY-NC 4.0**.
 
 - Source: https://huggingface.co/datasets/facebook/seamless-interaction
@@ -20,5 +25,4 @@ Interaction**, Naturalistic / Dev, under **CC-BY-NC 4.0**.
 - Dataset card: [web/annotations/DATASET_README.md](web/annotations/DATASET_README.md).
 
 Open `index.html` locally or serve this directory using any static web server.
-Annotations stay in the listener's browser until they download a JSON export.
-This site does not collect or upload listener answers.
+Audio playback is read-only and does not request, collect or upload action answers.

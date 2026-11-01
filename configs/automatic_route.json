@@ -1,0 +1,35 @@
+{
+  "updated_at": "2026-11-01",
+  "experiment_snapshot_date": "2026-10-31",
+  "decision": "skip_new_manual_annotation",
+  "basis": "User instruction: 跳过人工标注",
+  "manual_annotation_required": false,
+  "generated_labels_count_as_human": false,
+  "active_focus": "automatic_endpointing_evaluation_and_causal_runtime",
+  "ground_truth": {
+    "existing_eot_bench": "Reuse existing annotated endpoints and fixed conversation roles for cutoff, missed-response and delay evaluation.",
+    "external_seamless_pilot": "Audio alignment, prefix consistency, compute and scheduling probes only; desired Wait/Respond actions remain unlabelled.",
+    "independent_benchmark": "Use an accessible benchmark with existing endpoint labels; official TurnBench audio remains access-restricted."
+  },
+  "next_steps": [
+    "Connect frozen supervised heads to real causal VAD opportunities using existing labelled recordings.",
+    "Measure actual ASR result availability and encoding/queue/timeout costs; distinguish real streaming from offline prefix decoding.",
+    "Compare rules and SFT at matched cutoff risk and response coverage, including missed responses and compute costs.",
+    "Evaluate on independent, already-labelled conversations before deciding whether to train PPO."
+  ],
+  "evaluation_metrics": [
+    "turn_level_premature_response_rate",
+    "no_response_rate",
+    "valid_response_rate",
+    "conditional_valid_response_latency",
+    "all_turn_failure_penalized_latency",
+    "measured_compute_and_runtime_availability"
+  ],
+  "out_of_current_evaluation": [
+    "External desired-action accuracy without existing action labels.",
+    "Human conversational appropriateness, empathy and perceived naturalness.",
+    "Claims that score sensitivity establishes emotion-aware correct actions."
+  ],
+  "historical_results_changed": false,
+  "new_training_run_started_by_this_decision": false
+}

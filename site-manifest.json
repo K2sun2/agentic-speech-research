@@ -1,5 +1,6 @@
 {
-  "snapshot": "2026-10-31",
+  "snapshot": "2026-11-01",
+  "experiment_snapshot": "2026-10-31",
   "files": [
     {
       "path": ".nojekyll",
@@ -8,13 +9,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 1228,
-      "sha256": "abaad5ed208f486a8bf420fa37657368afbbf1cb8b5c3c23057edbed565a23cb"
+      "bytes": 1464,
+      "sha256": "acf5bd9a017e9407a5ab678f89396317be0e6a207abf1bf4bb6fd6bf5c37cc96"
+    },
+    {
+      "path": "configs/automatic_route.json",
+      "bytes": 1900,
+      "sha256": "4dfa76967ea29f5209fef8f74c737a265f8aef4b2ecf3de897429eaa628f40df"
     },
     {
       "path": "index.html",
-      "bytes": 340816,
-      "sha256": "739d9dec5fca6491186beb33f6b84dbf01dc5e0032b95d50ebb87320ecb07137"
+      "bytes": 343565,
+      "sha256": "f3deaeec5d4a624b883f9afa117298a7aee70ef89e844d5595f9441e56724e5b"
     },
     {
       "path": "reports/arl1_independent/decision.json",
@@ -388,15 +394,21 @@
     },
     {
       "path": "web/annotations/listening.html",
-      "bytes": 8506,
-      "sha256": "3d72b6aab8315c19672ce37f45edfdbbe425fa4696a255922fa76ef9843ee62f"
+      "bytes": 8961,
+      "sha256": "05aef3dd1a11e1ee2ad739b62c43e06bf3041c240c63655c492695c54d28c073"
     },
     {
       "path": "web/annotations/listening_manifest.json",
       "bytes": 23003,
       "sha256": "c1913245fb4e16722bd862edfc0b277b8984cd4ba3ea75b26d2f1d37f1f0b2ba"
+    },
+    {
+      "path": "web/annotations/samples.html",
+      "bytes": 8961,
+      "sha256": "05aef3dd1a11e1ee2ad739b62c43e06bf3041c240c63655c492695c54d28c073"
     }
   ],
   "audio_excerpts": 64,
-  "human_answers": 0
+  "human_answers": 0,
+  "manual_annotation_required": false
 }
