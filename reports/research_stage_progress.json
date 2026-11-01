@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-11-01",
+  "overall": "feasibility_and_supervised_baseline_evaluation",
+  "rl_started": false,
+  "manual_annotation_required": false,
+  "latest_report": "reports/arl2_vad_controller/README.md",
+  "topics": [
+    {
+      "id": "ARL-1",
+      "stage": "Stage 0",
+      "status": "seed-only regeneration feasibility checked; PPO deferred",
+      "completed": "500×5 candidates and independent ASR reassessment",
+      "missing": "SFT/PPO controller and validated effective refinement actions"
+    },
+    {
+      "id": "ARL-2",
+      "stage": "Stage 1 evaluation",
+      "status": "SFT heads and real-VAD availability replay complete; risk gate failed",
+      "completed": "modality ablations, frozen heads, causal replay, real VAD, 5027 windows, 1409 timed ASR requests",
+      "missing": "independent matched-risk/coverage evaluation and actual stateful streaming runtime",
+      "measured_text_audio_cutoff": 0.1851851851851852,
+      "measured_text_audio_miss": 0.008230452674897118
+    },
+    {
+      "id": "ARL-5",
+      "stage": "early Stage 0",
+      "status": "controlled acoustic/tool probes only",
+      "missing": "learned tool-selection SFT/RL and downstream refinement benefit"
+    },
+    {
+      "id": "ARL-3",
+      "stage": "research design",
+      "status": "no trained memory policy or memory ablation results"
+    },
+    {
+      "id": "ARL-4",
+      "stage": "engineering exploration",
+      "status": "formal AR/DLM × revision 2×2 experiment not completed"
+    }
+  ]
+}

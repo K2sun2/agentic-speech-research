@@ -3,11 +3,15 @@
 Chinese research page for Agentic RL × Speech Agent: five research directions,
 verified experiment progress, interactive risk/latency figures, and read-only audio playback.
 
-Route updated: 2026-11-01. Experiment snapshot: 2026-10-31.
+Route updated: 2026-11-01. Experiment snapshot: 2026-11-01.
 New manual annotation is skipped at the user's request. Automatic evaluation uses
 existing endpoint labels, real VAD and ASR/runtime measurements. Unlabelled external
 desired-action accuracy remains unassessed. No completed RL or verified
 emotion-aware interaction benefit is claimed.
+
+Latest: frozen supervised controllers are connected to actual VAD opportunities.
+5,027 acoustic windows and 1,409 single-request ASR timings are complete. The
+measured-service queue replay remains offline and has not passed the cutoff gate.
 
 Current route: [configs/automatic_route.json](configs/automatic_route.json).
 

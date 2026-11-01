@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "turns": 400,
+  "causal_acoustic_windows": 5027,
+  "single_request_asr_prefixes": 1409,
+  "opportunities_regenerated_from_real_vad": true,
+  "no_annotation_inputs_to_scheduler": true,
+  "data_protocol_sha256": "4b7261734c8f58f9a995c8826e49f5443eb64a118c3ad931770d08b1643a94c7",
+  "replay": {
+    "passed": true,
+    "episode_replays_checked": 1620,
+    "score_availability_and_prefix_bounds_verified": true,
+    "recorded_score_replay_exact": true,
+    "source_sha256": "f5199c7f1d4034db3a49c47db453760acdc0c321c5bfad88cb669ecebaae97ca",
+    "traces_sha256": "109b0019c19c77275974f5b51d55b76d8e64ed26338eaad8a59958dfd73bee63"
+  },
+  "independent_vad_baselines_checked": 162,
+  "frozen_checkpoints_verified": 45,
+  "frozen_scalers_verified": 5,
+  "tests": {
+    "passed": 52,
+    "command": "python -m pytest -q tests"
+  }
+}

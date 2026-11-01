@@ -1,0 +1,1192 @@
+{
+  "status": "frozen_controller_real_vad_cost_replay_complete",
+  "date": "2026-11-01",
+  "turns_profiled": 400,
+  "opportunities": 5027,
+  "single_request_asr": 1409,
+  "timing": {
+    "asr_seconds": {
+      "requests": 1409,
+      "mean": 0.18720094052343672,
+      "median": 0.13594847358763218,
+      "p95": 0.4824040668085214,
+      "maximum": 2.6981303580105305
+    },
+    "features_seconds": {
+      "requests": 5027,
+      "mean": 0.04883222103634672,
+      "median": 0.05045014340430498,
+      "p95": 0.057505960948765276,
+      "maximum": 0.15623707231134176
+    }
+  },
+  "summary": {
+    "text": {
+      "eligible_runs": 3,
+      "original_head_runs": 15,
+      "eligible_splits": [
+        20261104
+      ],
+      "modes": {
+        "zero_cost": {
+          "turns": 81.0,
+          "cutoff_rate": 0.2222222222222222,
+          "no_response_rate": 0.028806584362139915,
+          "valid_response_rate": 0.7489711934156378,
+          "conditional_delay_s": 0.7183426028921022,
+          "conditional_delay_p95_s": 1.137266666666666,
+          "failure_penalized_delay_s": 0.9152592592592592,
+          "model_responses": 58.0,
+          "timeout_responses": 20.666666666666668,
+          "mean_asr_requests": 2.6502057613168724,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.831275720164609
+        },
+        "measured": {
+          "turns": 81.0,
+          "cutoff_rate": 0.2222222222222222,
+          "no_response_rate": 0.028806584362139915,
+          "valid_response_rate": 0.7489711934156378,
+          "conditional_delay_s": 0.7186231930440371,
+          "conditional_delay_p95_s": 1.1375276681262996,
+          "failure_penalized_delay_s": 0.9154685752343371,
+          "model_responses": 58.0,
+          "timeout_responses": 20.666666666666668,
+          "mean_asr_requests": 2.6502057613168724,
+          "mean_asr_compute_s": 0.3807222104857488,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05428274769964533,
+          "mean_head_compute_s": 0.0018202740997995861,
+          "mean_head_calls": 5.893004115226337
+        }
+      }
+    },
+    "text_audio": {
+      "eligible_runs": 3,
+      "original_head_runs": 15,
+      "eligible_splits": [
+        20261104
+      ],
+      "modes": {
+        "zero_cost": {
+          "turns": 81.0,
+          "cutoff_rate": 0.1810699588477366,
+          "no_response_rate": 0.008230452674897118,
+          "valid_response_rate": 0.8106995884773663,
+          "conditional_delay_s": 0.43759689199689217,
+          "conditional_delay_p95_s": 0.9060000000000002,
+          "failure_penalized_delay_s": 0.6386995884773663,
+          "model_responses": 80.33333333333333,
+          "timeout_responses": 0.0,
+          "mean_asr_requests": 2.8559670781893005,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.609053497942387,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.609053497942387
+        },
+        "measured": {
+          "turns": 81.0,
+          "cutoff_rate": 0.1851851851851852,
+          "no_response_rate": 0.008230452674897118,
+          "valid_response_rate": 0.8065843621399177,
+          "conditional_delay_s": 0.47297976112247864,
+          "conditional_delay_p95_s": 0.9580958517350259,
+          "failure_penalized_delay_s": 0.6715841690632418,
+          "model_responses": 80.33333333333333,
+          "timeout_responses": 0.0,
+          "mean_asr_requests": 2.8559670781893005,
+          "mean_asr_compute_s": 0.4160399045795202,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.650205761316872,
+          "mean_features_compute_s": 0.32995127982732075,
+          "mean_features_residual_s": 0.001164142051014127,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05617664952919562,
+          "mean_head_compute_s": 0.003789915159007404,
+          "mean_head_calls": 5.62962962962963
+        }
+      }
+    },
+    "text_audio_prosody": {
+      "eligible_runs": 3,
+      "original_head_runs": 15,
+      "eligible_splits": [
+        20261104
+      ],
+      "modes": {
+        "zero_cost": {
+          "turns": 81.0,
+          "cutoff_rate": 0.17695473251028804,
+          "no_response_rate": 0.016460905349794237,
+          "valid_response_rate": 0.8065843621399177,
+          "conditional_delay_s": 0.4240149184149185,
+          "conditional_delay_p95_s": 0.8956000000000001,
+          "failure_penalized_delay_s": 0.6321481481481481,
+          "model_responses": 79.66666666666667,
+          "timeout_responses": 0.0,
+          "mean_asr_requests": 2.8518518518518516,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.5473251028806585,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.5473251028806585
+        },
+        "measured": {
+          "turns": 81.0,
+          "cutoff_rate": 0.17695473251028804,
+          "no_response_rate": 0.016460905349794237,
+          "valid_response_rate": 0.8065843621399177,
+          "conditional_delay_s": 0.45869572516048646,
+          "conditional_delay_p95_s": 0.9492252738752714,
+          "failure_penalized_delay_s": 0.6601281275077427,
+          "model_responses": 79.66666666666667,
+          "timeout_responses": 0.0,
+          "mean_asr_requests": 2.8683127572016462,
+          "mean_asr_compute_s": 0.41815552125405137,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.625514403292182,
+          "mean_features_compute_s": 0.3294676464173652,
+          "mean_features_residual_s": 0.0009607641418836061,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05630520179315849,
+          "mean_head_compute_s": 0.00473081287180568,
+          "mean_head_calls": 5.600823045267489
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_11",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_22",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_33",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_11",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_22",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_33",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261031,
+      "name": "stream_supervised:text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_11",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_22",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_33",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_11",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_22",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_33",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261101,
+      "name": "stream_supervised:text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_11",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_22",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_33",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_11",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_22",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_33",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261102,
+      "name": "stream_supervised:text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_11",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_22",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_33",
+      "modality": "text",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_11",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_22",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_33",
+      "modality": "text_audio",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261103,
+      "name": "stream_supervised:text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "no_previously_feasible_policy"
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_11",
+      "modality": "text",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.65,
+        "minimum": 0.5,
+        "timeout": 1.1
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.19753086419753085,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 1.0,
+        "correct_response_delay_s": 0.7215384615384614,
+        "capped_failure_delay_s": 0.8753086419753083,
+        "mean_score_calls": 6.234567901234568,
+        "mean_visited_points": 6.234567901234568,
+        "mean_feature_seconds": 0.0,
+        "mean_asr_allocated_seconds": 1.2467738187061277
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.2345679012345679,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7654320987654321,
+          "conditional_delay_s": 0.7392903225806451,
+          "conditional_delay_p95_s": 1.1277999999999992,
+          "failure_penalized_delay_s": 0.9177283950617284,
+          "model_responses": 50,
+          "timeout_responses": 31,
+          "mean_asr_requests": 2.6049382716049383,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.592592592592593
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.2345679012345679,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7654320987654321,
+          "conditional_delay_s": 0.739546437265051,
+          "conditional_delay_p95_s": 1.1279675536856049,
+          "failure_penalized_delay_s": 0.9179244334621378,
+          "model_responses": 50,
+          "timeout_responses": 31,
+          "mean_asr_requests": 2.6049382716049383,
+          "mean_asr_compute_s": 0.37368322558195133,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05364713978804188,
+          "mean_head_compute_s": 0.0017207519001798865,
+          "mean_head_calls": 5.679012345679013
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_22",
+      "modality": "text",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.6000000000000001,
+        "minimum": 0.5,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.18518518518518517,
+        "no_response_rate": 0.024691358024691357,
+        "valid_response_rate": 0.7901234567901234,
+        "response_coverage": 0.9753086419753086,
+        "correct_response_delay_s": 0.7312499999999998,
+        "capped_failure_delay_s": 0.8925925925925924,
+        "mean_score_calls": 6.592592592592593,
+        "mean_visited_points": 6.592592592592593,
+        "mean_feature_seconds": 0.0,
+        "mean_asr_allocated_seconds": 1.2853339209543242
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.19753086419753085,
+          "no_response_rate": 0.08641975308641975,
+          "valid_response_rate": 0.7160493827160493,
+          "conditional_delay_s": 0.6759310344827583,
+          "conditional_delay_p95_s": 1.1562,
+          "failure_penalized_delay_s": 0.9099259259259258,
+          "model_responses": 74,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.753086419753086,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 7.382716049382716
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.19753086419753085,
+          "no_response_rate": 0.08641975308641975,
+          "valid_response_rate": 0.7160493827160493,
+          "conditional_delay_s": 0.6762625310617527,
+          "conditional_delay_p95_s": 1.1566478970076888,
+          "failure_penalized_delay_s": 0.9101632938466874,
+          "model_responses": 74,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.753086419753086,
+          "mean_asr_compute_s": 0.3963968022439031,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.055694170089231596,
+          "mean_head_compute_s": 0.001991758261013914,
+          "mean_head_calls": 6.407407407407407
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_33",
+      "modality": "text",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.65,
+        "minimum": 0.5,
+        "timeout": 1.1
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.19753086419753085,
+        "no_response_rate": 0.0,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 1.0,
+        "correct_response_delay_s": 0.7184615384615383,
+        "capped_failure_delay_s": 0.8728395061728393,
+        "mean_score_calls": 6.209876543209877,
+        "mean_visited_points": 6.209876543209877,
+        "mean_feature_seconds": 0.0,
+        "mean_asr_allocated_seconds": 1.2467738187061277
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.2345679012345679,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7654320987654321,
+          "conditional_delay_s": 0.7398064516129031,
+          "conditional_delay_p95_s": 1.1277999999999992,
+          "failure_penalized_delay_s": 0.9181234567901234,
+          "model_responses": 50,
+          "timeout_responses": 31,
+          "mean_asr_requests": 2.5925925925925926,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.518518518518518
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.2345679012345679,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.7654320987654321,
+          "conditional_delay_s": 0.7400606108053076,
+          "conditional_delay_p95_s": 1.1279675536856049,
+          "failure_penalized_delay_s": 0.918317998394186,
+          "model_responses": 50,
+          "timeout_responses": 31,
+          "mean_asr_requests": 2.5925925925925926,
+          "mean_asr_compute_s": 0.37208660363139195,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05350693322166249,
+          "mean_head_compute_s": 0.0017483121382049572,
+          "mean_head_calls": 5.592592592592593
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_11",
+      "modality": "text_audio",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.14814814814814814,
+        "no_response_rate": 0.04938271604938271,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 0.9506172839506173,
+        "correct_response_delay_s": 0.4599999999999999,
+        "capped_failure_delay_s": 0.665432098765432,
+        "mean_score_calls": 6.111111111111111,
+        "mean_visited_points": 6.111111111111111,
+        "mean_feature_seconds": 0.40939151872823265,
+        "mean_asr_allocated_seconds": 1.3434593168570212
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.44018461538461545,
+          "conditional_delay_p95_s": 0.9080000000000004,
+          "failure_penalized_delay_s": 0.6495308641975309,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8395061728395063,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.567901234567901,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.567901234567901
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.47570469446583447,
+          "conditional_delay_p95_s": 0.9630933239981535,
+          "failure_penalized_delay_s": 0.678034631361472,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8641975308641974,
+          "mean_asr_compute_s": 0.4176054204365722,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.703703703703703,
+          "mean_features_compute_s": 0.33283269089175227,
+          "mean_features_residual_s": 0.0011641337917542576,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.056311435962992686,
+          "mean_head_compute_s": 0.003800650966572173,
+          "mean_head_calls": 5.679012345679013
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_22",
+      "modality": "text_audio",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.16049382716049382,
+        "no_response_rate": 0.037037037037037035,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 0.9629629629629629,
+        "correct_response_delay_s": 0.4323076923076923,
+        "capped_failure_delay_s": 0.6432098765432098,
+        "mean_score_calls": 5.864197530864198,
+        "mean_visited_points": 5.864197530864198,
+        "mean_feature_seconds": 0.39267381166832316,
+        "mean_asr_allocated_seconds": 1.3389642677315867
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.1728395061728395,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8148148148148148,
+          "conditional_delay_s": 0.44412121212121225,
+          "conditional_delay_p95_s": 0.9050000000000002,
+          "failure_penalized_delay_s": 0.6396543209876543,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8641975308641974,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.679012345679013,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.679012345679013
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.4793349254171436,
+          "conditional_delay_p95_s": 0.9556690143555405,
+          "failure_penalized_delay_s": 0.6809477796557325,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8395061728395063,
+          "mean_asr_compute_s": 0.4129088728654164,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.6419753086419755,
+          "mean_features_compute_s": 0.32936980359164286,
+          "mean_features_residual_s": 0.0011640480295927258,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.056017984429167375,
+          "mean_head_compute_s": 0.0038304484828754707,
+          "mean_head_calls": 5.62962962962963
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_33",
+      "modality": "text_audio",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.16049382716049382,
+        "no_response_rate": 0.024691358024691357,
+        "valid_response_rate": 0.8148148148148148,
+        "response_coverage": 0.9753086419753086,
+        "correct_response_delay_s": 0.4363636363636363,
+        "capped_failure_delay_s": 0.6333333333333332,
+        "mean_score_calls": 5.790123456790123,
+        "mean_visited_points": 5.790123456790123,
+        "mean_feature_seconds": 0.3867534406621147,
+        "mean_asr_allocated_seconds": 1.3389642677315867
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.8148148148148148,
+          "conditional_delay_s": 0.4284848484848486,
+          "conditional_delay_p95_s": 0.9050000000000002,
+          "failure_penalized_delay_s": 0.6269135802469136,
+          "model_responses": 81,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8641975308641974,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.580246913580247,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.580246913580247
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.8148148148148148,
+          "conditional_delay_s": 0.4638996634844578,
+          "conditional_delay_p95_s": 0.9555252168513837,
+          "failure_penalized_delay_s": 0.6557700961725211,
+          "model_responses": 81,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8641975308641974,
+          "mean_asr_compute_s": 0.4176054204365722,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.604938271604938,
+          "mean_features_compute_s": 0.3276513449985672,
+          "mean_features_residual_s": 0.0011642443316953975,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.056200528195426785,
+          "mean_head_compute_s": 0.0037386460275745685,
+          "mean_head_calls": 5.580246913580247
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_prosody_11",
+      "modality": "text_audio_prosody",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.16049382716049382,
+        "no_response_rate": 0.024691358024691357,
+        "valid_response_rate": 0.8148148148148148,
+        "response_coverage": 0.9753086419753086,
+        "correct_response_delay_s": 0.41818181818181804,
+        "capped_failure_delay_s": 0.6185185185185185,
+        "mean_score_calls": 5.691358024691358,
+        "mean_visited_points": 5.691358024691358,
+        "mean_feature_seconds": 0.3809644792136955,
+        "mean_asr_allocated_seconds": 1.3389642677315867
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.41212307692307704,
+          "conditional_delay_p95_s": 0.8912,
+          "failure_penalized_delay_s": 0.6270123456790123,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.814814814814815,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.283950617283951,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.283950617283951
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.4471200382178794,
+          "conditional_delay_p95_s": 0.9467477872490883,
+          "failure_penalized_delay_s": 0.6550963269649648,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8395061728395063,
+          "mean_asr_compute_s": 0.4137302387597752,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.407407407407407,
+          "mean_features_compute_s": 0.318853534275183,
+          "mean_features_residual_s": 0.0011595652061111956,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05587330342120962,
+          "mean_head_compute_s": 0.004491139479257443,
+          "mean_head_calls": 5.395061728395062
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_prosody_22",
+      "modality": "text_audio_prosody",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.16049382716049382,
+        "no_response_rate": 0.037037037037037035,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 0.9629629629629629,
+        "correct_response_delay_s": 0.4415384615384615,
+        "capped_failure_delay_s": 0.6506172839506171,
+        "mean_score_calls": 5.901234567901234,
+        "mean_visited_points": 5.901234567901234,
+        "mean_feature_seconds": 0.39553877907908624,
+        "mean_asr_allocated_seconds": 1.3389642677315867
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.43083076923076935,
+          "conditional_delay_p95_s": 0.9056000000000002,
+          "failure_penalized_delay_s": 0.6420246913580248,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8395061728395063,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.530864197530864,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.530864197530864
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.18518518518518517,
+          "no_response_rate": 0.012345679012345678,
+          "valid_response_rate": 0.8024691358024691,
+          "conditional_delay_s": 0.4634985591769219,
+          "conditional_delay_p95_s": 0.9558768335863951,
+          "failure_penalized_delay_s": 0.6682395845246905,
+          "model_responses": 80,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.8641975308641974,
+          "mean_asr_compute_s": 0.4176054204365722,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.6419753086419755,
+          "mean_features_compute_s": 0.3301350857924532,
+          "mean_features_residual_s": 0.0005621523102860193,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.05625531276297054,
+          "mean_head_compute_s": 0.004736321207917767,
+          "mean_head_calls": 5.62962962962963
+        }
+      }
+    },
+    {
+      "split": 20261104,
+      "name": "stream_supervised:text_audio_prosody_33",
+      "modality": "text_audio_prosody",
+      "status": "inherited_policy",
+      "policy": {
+        "threshold": 0.8,
+        "minimum": 0.3,
+        "timeout": null
+      },
+      "previous_annotated_opportunities": {
+        "turns": 81,
+        "turn_cutoff_rate": 0.16049382716049382,
+        "no_response_rate": 0.037037037037037035,
+        "valid_response_rate": 0.8024691358024691,
+        "response_coverage": 0.9629629629629629,
+        "correct_response_delay_s": 0.45999999999999985,
+        "capped_failure_delay_s": 0.665432098765432,
+        "mean_score_calls": 6.012345679012346,
+        "mean_visited_points": 6.012345679012346,
+        "mean_feature_seconds": 0.4028245051977811,
+        "mean_asr_allocated_seconds": 1.3389642677315867
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.16049382716049382,
+          "no_response_rate": 0.024691358024691357,
+          "valid_response_rate": 0.8148148148148148,
+          "conditional_delay_s": 0.42909090909090913,
+          "conditional_delay_p95_s": 0.8900000000000001,
+          "failure_penalized_delay_s": 0.6274074074074074,
+          "model_responses": 79,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.9012345679012346,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.827160493827161,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 6.827160493827161
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.16049382716049382,
+          "no_response_rate": 0.024691358024691357,
+          "valid_response_rate": 0.8148148148148148,
+          "conditional_delay_s": 0.46546857808665804,
+          "conditional_delay_p95_s": 0.9450512007903309,
+          "failure_penalized_delay_s": 0.6570484710335731,
+          "model_responses": 79,
+          "timeout_responses": 0,
+          "mean_asr_requests": 2.9012345679012346,
+          "mean_asr_compute_s": 0.42313090456580676,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 6.827160493827161,
+          "mean_features_compute_s": 0.3394143191844593,
+          "mean_features_residual_s": 0.0011605749092536031,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.056786989195295325,
+          "mean_head_compute_s": 0.0049649779282418295,
+          "mean_head_calls": 5.777777777777778
+        }
+      }
+    }
+  ],
+  "baselines": [
+    {
+      "split": 20261104,
+      "policy": {
+        "threshold": 1.0,
+        "minimum": 0.1,
+        "timeout": 1.1
+      },
+      "modes": {
+        "zero_cost": {
+          "turns": 81,
+          "cutoff_rate": 0.1728395061728395,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.8271604938271605,
+          "conditional_delay_s": 1.083283582089552,
+          "conditional_delay_p95_s": 1.1400000000000003,
+          "failure_penalized_delay_s": 1.1553086419753087,
+          "model_responses": 0,
+          "timeout_responses": 81,
+          "mean_asr_requests": 0.0,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.0,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 0.0
+        },
+        "measured": {
+          "turns": 81,
+          "cutoff_rate": 0.1728395061728395,
+          "no_response_rate": 0.0,
+          "valid_response_rate": 0.8271604938271605,
+          "conditional_delay_s": 1.0834580645398861,
+          "conditional_delay_p95_s": 1.140168429035694,
+          "failure_penalized_delay_s": 1.155452966965091,
+          "model_responses": 0,
+          "timeout_responses": 81,
+          "mean_asr_requests": 0.0,
+          "mean_asr_compute_s": 0.0,
+          "mean_asr_residual_s": 0.0,
+          "mean_asr_queue_s": 0.0,
+          "mean_features_requests": 0.0,
+          "mean_features_compute_s": 0.0,
+          "mean_features_residual_s": 0.0,
+          "mean_features_queue_s": 0.0,
+          "mean_vad_compute_s": 0.056745783885779943,
+          "mean_head_compute_s": 0.0,
+          "mean_head_calls": 0.0
+        }
+      }
+    }
+  ],
+  "episode_replays_checked": 1620,
+  "protocol": {
+    "data_protocol_sha256": "4b7261734c8f58f9a995c8826e49f5443eb64a118c3ad931770d08b1643a94c7",
+    "policy_source_sha256": "70763f15856cd945f694e74f87ef183ac12ebc281794fc6248103a0961797298",
+    "source_sha256": {
+      "vad_controller_evaluate.py": "f5199c7f1d4034db3a49c47db453760acdc0c321c5bfad88cb669ecebaae97ca",
+      "vad_controller_replay.py": "a8505a00b721545b474fb51c3b1005dff7850350eaade4b3678bc67a915ae444"
+    },
+    "checkpoints": {
+      "20261031": {
+        "scaler": "fe73be457b6fd0fba863da0590aaaed2d580c7df2a0c4a1ebf77ed4104cd8596",
+        "heads": {
+          "text_11.pt": "6955e003a7696e820a74d39593dd1c0284b8e276601e59d4a30871e2512252f5",
+          "text_22.pt": "a924b9fcaf2d382d94999c6680f075697b7f6fa0ac80361a49b1b6ec965b32bc",
+          "text_33.pt": "fe6cf85cc386aecc54937b167fd4970908b7a024e243314ec168f0d34c634727",
+          "text_audio_11.pt": "6c7a0ec636e41a88bef538915f5417993998439f538f5092ef86f6b520fbdd56",
+          "text_audio_22.pt": "08529759df6754066bb302d5ce1a262ecdb32d3d95bece2719b5c1aeb96900ff",
+          "text_audio_33.pt": "af1be79437e719de16c843d38032e0e0d6b3a35b0a7ab49e34c6e0056c24019e",
+          "text_audio_prosody_11.pt": "d1bb5b8c3c4f45e7f9db38ab24924ec879ca091ad7da8af2a2e8815dbdf447fa",
+          "text_audio_prosody_22.pt": "76996bdf9deefbfc35623db735ffa03b2767722bde9aa86fa4fa0616b735a552",
+          "text_audio_prosody_33.pt": "f3cd0a08c73586e645bc494443db8fbbfdc514a89d31e9dfb4d8932038d02d91"
+        }
+      },
+      "20261101": {
+        "scaler": "78d0a5cc42be7d568b1f2e28700e329dab8a5aed6982c6e5b44ef7ae91c6435a",
+        "heads": {
+          "text_11.pt": "ff1e292600b4362bfd426467f14070e8481fbb5910c5b000250e841ad5fd3098",
+          "text_22.pt": "535b76cc96f0569b8607ef01cf835c3a9b16629beb5f4acdaefc79a2d94f0068",
+          "text_33.pt": "99ef2a480a79f221b06533fa3f6c442789efd9203e0c3aa4c3fcb8e680946873",
+          "text_audio_11.pt": "b6e6b6afb23ded806d1390c4f7d7e69ee8c40b59ea1e3f0f24d799e0cb398198",
+          "text_audio_22.pt": "042f06c89cd0de436f1a0be859dfc4048209fe9cc914312c9af31a4dd1c5a4fe",
+          "text_audio_33.pt": "36260bbbde07875770434f2b00f3c389e47cdd4697beb95deebc6173f170a896",
+          "text_audio_prosody_11.pt": "2ddba4293b98c28e07c690dfeb649a74ed449e18461fef904a7924ca2dff3738",
+          "text_audio_prosody_22.pt": "c6e011efab9112dc1ea5fb56ca94994344117b894766d25a0f8ce658b158dd23",
+          "text_audio_prosody_33.pt": "1584dff9917b247bf68416b12d7c7ae1f2fdcacece92df0949eaf2df5589c7d2"
+        }
+      },
+      "20261102": {
+        "scaler": "c7cf290d89225964987a0837809bdaf7718a45457db740a7754168925e7dac47",
+        "heads": {
+          "text_11.pt": "52f0b73d3b36f09af51238ca0f2cae3e60350dcffd35b381b4bc0761f53e8fcf",
+          "text_22.pt": "a87df027c23f02524a3481cfb5f44ecf0c3a7b37924841b75f6f94568397dc73",
+          "text_33.pt": "9a07e5c3171739855a83f25efcf610e15d4e59ac98e8d2114fe8cc2d2e819c7a",
+          "text_audio_11.pt": "5e59341a76affad6137bb08907c12d91fcf56dca922ec99334db28a5a947fb9d",
+          "text_audio_22.pt": "b3cd5d5effaf7110f8bb4c534e6bc17a6e29524055bc29324b8a723233f4bc97",
+          "text_audio_33.pt": "b6f2f66e8f005d969e4cb1d248f8240894af3213dcde9f2e7845f4b1dffb4eea",
+          "text_audio_prosody_11.pt": "48cf86ac19f11b2e5391c3c302f9fea897259f3d361c4fef9d1de408d9b20e4e",
+          "text_audio_prosody_22.pt": "1826d3ee33497db61e74c734693f5a1bead6e1d25f444d7b5977365da7b5ff70",
+          "text_audio_prosody_33.pt": "0e5206839d0f7d1817bcd8e741cb49a7068223578b01d96a7ac889cb8fdde0d2"
+        }
+      },
+      "20261103": {
+        "scaler": "af3c3117044c44f4a8476adab039ae58404ffb61132d0f4162a7280fa0c580b6",
+        "heads": {
+          "text_11.pt": "bbc886dd1fcc7a46d91d78e9b51504877d49443098286af2b7bcd22d7ba14f1b",
+          "text_22.pt": "2903f4d10e469753b3056bb9473fca314f666e7ac0332da801fc5f971929952f",
+          "text_33.pt": "787be950122e3a66b9d8fccfacb086ae91c05597eae0f68ac4484f5a284ca270",
+          "text_audio_11.pt": "2e3b97941a2e06e9ab0d51db0de8b332b4a9c83d66b941f116dfc526a395c9b4",
+          "text_audio_22.pt": "af49abce2a740ddf9af038bbe13409e5af764f1813ce1da6b464c604fc9dda60",
+          "text_audio_33.pt": "48976104790b16c274041707402720b3be1dae0f6009ca9d79aad0b11abb86b4",
+          "text_audio_prosody_11.pt": "56293aac86e2293912d3830d5dcea0c8bd20fd338d00b1974fe3863762989ff9",
+          "text_audio_prosody_22.pt": "46e04d3a2f0691a50a88b3dda8ee4d91837e931f410e1eaae81540fdcb1f4b38",
+          "text_audio_prosody_33.pt": "7d1afe902d047465839853a40b1925af8f87451037e1f218c3a6489bd405cfe0"
+        }
+      },
+      "20261104": {
+        "scaler": "f3ffc145006376d969e86a9b2f78e27847f9ece8a6a0d4de74a0055c5d6c5b1e",
+        "heads": {
+          "text_11.pt": "123caa22007be5a2e9e336aef5c88508f92486416c5f74febe4adb50b11cddc4",
+          "text_22.pt": "2ae74e2bbeb41c97552bfde0cc2980c86d25c642576489ecc1cae5c34da834de",
+          "text_33.pt": "92ab40070e1eb2875342f983014590d813f5cc1591d3bdb0e2e3b97ca2f8b78b",
+          "text_audio_11.pt": "bcf4888c6e53ca63e7bc3141986553a459a431aacf39b8af7134ac6d5fe26f14",
+          "text_audio_22.pt": "8ccfd5e37eb9a561fe62a38d1dda7c5b78265dc3cb2f1d2a16f9400cb17882f5",
+          "text_audio_33.pt": "fdf83b804cb92989bc67cda45e13ca4e6d45e5fe47a88bc2b7126d5c5c124dbf",
+          "text_audio_prosody_11.pt": "adf9f6ccc7a1def0e9a4be0b58354438ebe055bec5f2300846032ad555240c3e",
+          "text_audio_prosody_22.pt": "35680662199757957863f23ceef5a7156c5cdb0fe93dc9ca8c0dbb35bf62dd64",
+          "text_audio_prosody_33.pt": "01998fe9f245e63fd1bf46a05fb0fb968e1ce2335576010ae035bd6808e80499"
+        }
+      }
+    },
+    "modes": [
+      "zero_cost",
+      "measured"
+    ],
+    "new_fitting": false,
+    "new_calibration": false,
+    "policy_selection": "reuse previous 5% cutoff + 1% miss selection exactly; unavailable policies remain unavailable",
+    "workers": "one FIFO ASR worker, one FIFO combined WavLM+WORLD worker, serial head, separate VAD CPU worker per episode",
+    "invalidation": "speech resumption discards old-gap ASR/features/scores; queued stale jobs still consume FIFO capacity",
+    "termination": "first response or actual recording end; cancel unstarted work, charge full duration of launched nonpreemptive jobs",
+    "compute_caveat": "combined acoustic worker also computes WORLD for Text+Audio; this is a shared service, not optimized modality-specific deployment",
+    "simulation": true,
+    "stateful_streaming_asr": false,
+    "manual_annotation": false
+  },
+  "limitations": [
+    "Previously inspected recordings and overlapping old splits, not independent confirmation.",
+    "Only inherited eligible policies are scored; all no-policy outcomes are preserved.",
+    "Zero-cost removes all service durations but shares the exact new VAD opportunities and ASR hypotheses.",
+    "Worker queues are simulated from measured single-request durations, not a live streaming recognizer or user service.",
+    "Measured durations come from shared GPUs and exclude model startup, network transport, TTS, and real user feedback.",
+    "No new manual labels, no classifier retraining, no new threshold selection, and no PPO.",
+    "The 1.5s terminal silence limits valid responses with delayed processing; misses remain failures."
+  ]
+}

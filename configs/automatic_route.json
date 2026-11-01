@@ -1,6 +1,6 @@
 {
   "updated_at": "2026-11-01",
-  "experiment_snapshot_date": "2026-10-31",
+  "experiment_snapshot_date": "2026-11-01",
   "decision": "skip_new_manual_annotation",
   "basis": "User instruction: 跳过人工标注",
   "manual_annotation_required": false,
@@ -12,10 +12,10 @@
     "independent_benchmark": "Use an accessible benchmark with existing endpoint labels; official TurnBench audio remains access-restricted."
   },
   "next_steps": [
-    "Connect frozen supervised heads to real causal VAD opportunities using existing labelled recordings.",
-    "Measure actual ASR result availability and encoding/queue/timeout costs; distinguish real streaming from offline prefix decoding.",
-    "Compare rules and SFT at matched cutoff risk and response coverage, including missed responses and compute costs.",
-    "Evaluate on independent, already-labelled conversations before deciding whether to train PPO."
+    "Use an accessible independent endpoint benchmark with existing labels; do not request new manual annotation.",
+    "Check actual-VAD input distribution and supervised training on fit/stop roles; keep reused-data results exploratory.",
+    "Add stateful streaming ASR and an actual audio runtime benchmark beyond measured-cost replay.",
+    "Compare rules, SFT and then PPO at matched risk and coverage once the evaluation is reliable."
   ],
   "evaluation_metrics": [
     "turn_level_premature_response_rate",
@@ -31,5 +31,9 @@
     "Claims that score sensitivity establishes emotion-aware correct actions."
   ],
   "historical_results_changed": false,
-  "new_training_run_started_by_this_decision": false
+  "new_training_run_started_by_this_decision": false,
+  "completed_latest": [
+    "Frozen supervised heads connected to real-VAD opportunities.",
+    "Single-request prefix ASR and acoustic costs measured; worker availability and queues replayed."
+  ]
 }
